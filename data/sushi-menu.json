@@ -1,0 +1,402 @@
+{
+    "1": {
+        "name": {
+            "en": "Kunsei sake*",
+            "fr": "Kunsei sake*",
+            "zh": "Kunsei sake*"
+        },
+        "price": "$5.75",
+        "image": "001.png",
+        "ingredients": {
+            "en": [
+                "Smoked Salmon"
+            ],
+            "fr": [
+                "Saumon Fumé"
+            ],
+            "zh": [
+                "熏三文鱼"
+            ]
+        }
+    },
+    "2": {
+        "name": {
+            "en": "Sake",
+            "fr": "Sake",
+            "zh": "Sake"
+        },
+        "price": "$5.25",
+        "image": "002.png",
+        "ingredients": {
+            "en": [
+                "Salmon"
+            ],
+            "fr": [
+                "Saumon"
+            ],
+            "zh": [
+                "三文鱼"
+            ]
+        }
+    },
+    "2a": {
+        "name": {
+            "en": "Sake yaki",
+            "fr": "Sake yaki",
+            "zh": "Sake yaki"
+        },
+        "price": "$5.75",
+        "image": "2a.png",
+        "ingredients": {
+            "en": [
+                "Seared Salmon"
+            ],
+            "fr": [
+                "Saumon Flambé"
+            ],
+            "zh": [
+                "炙烧三文鱼"
+            ]
+        }
+    },
+    "3": {
+        "name": {
+            "en": "Ebi*",
+            "fr": "Ebi*",
+            "zh": "Ebi*"
+        },
+        "price": "$4.95",
+        "image": "003.png",
+        "ingredients": {
+            "en": [
+                "Shrimp"
+            ],
+            "fr": [
+                "Crevette"
+            ],
+            "zh": [
+                "虾"
+            ]
+        }
+    },
+    "4": {
+        "name": {
+            "en": "Goberge*",
+            "fr": "Goberge*",
+            "zh": "Goberge*"
+        },
+        "price": "$4.50",
+        "image": "004.png",
+        "ingredients": {
+            "en": [
+                "Japanese Pollock"
+            ],
+            "fr": [
+                "Goberge japonaise"
+            ],
+            "zh": [
+                "日本鳕鱼条"
+            ]
+        }
+    },
+    "5": {
+        "name": {
+            "en": "Tako*",
+            "fr": "Tako*",
+            "zh": "Tako*"
+        },
+        "price": "$4.75",
+        "image": "005.png",
+        "ingredients": {
+            "en": [
+                "Octopus"
+            ],
+            "fr": [
+                "Octopus"
+            ],
+            "zh": [
+                "章鱼"
+            ]
+        }
+    },
+    "6": {
+        "name": {
+            "en": "Tama*",
+            "fr": "Tama*",
+            "zh": "Tama*"
+        },
+        "price": "$4.25",
+        "image": "006.png",
+        "ingredients": {
+            "en": [
+                "Japanese Omelette"
+            ],
+            "fr": [
+                "Omelette japonaise"
+            ],
+            "zh": [
+                "玉子烧"
+            ]
+        }
+    },
+    "6a": {
+        "name": {
+            "en": "Inari* (Végé)",
+            "fr": "Inari* (Végé)",
+            "zh": "Inari* (Végé)"
+        },
+        "price": "$4.25",
+        "image": "6a.png",
+        "ingredients": {
+            "en": [
+                "Marinated Fried Tofu"
+            ],
+            "fr": [
+                "Tofu frit mariné"
+            ],
+            "zh": [
+                "卤味油豆腐"
+            ]
+        }
+    },
+    "7": {
+        "name": {
+            "en": "Albacore",
+            "fr": "Albacore",
+            "zh": "Albacore"
+        },
+        "price": "$5.50",
+        "image": "007.png",
+        "ingredients": {
+            "en": [
+                "Albacore Tuna"
+            ],
+            "fr": [
+                "Thon Blanc"
+            ],
+            "zh": [
+                "白金枪鱼"
+            ]
+        }
+    },
+    "8": {
+        "name": {
+            "en": "Maguro",
+            "fr": "Maguro",
+            "zh": "Maguro"
+        },
+        "price": "$6.25",
+        "image": "008.png",
+        "ingredients": {
+            "en": [
+                "Tuna"
+            ],
+            "fr": [
+                "Thon"
+            ],
+            "zh": [
+                "金枪鱼"
+            ]
+        }
+    },
+    "8a": {
+        "name": {
+            "en": "Maguro yaki",
+            "fr": "Maguro yaki",
+            "zh": "Maguro yaki"
+        },
+        "price": "$6.75",
+        "image": "8a.png",
+        "ingredients": {
+            "en": [
+                "Seared Tuna"
+            ],
+            "fr": [
+                "Thon Flambé"
+            ],
+            "zh": [
+                "炙烧金枪鱼"
+            ]
+        }
+    },
+    "9": {
+        "name": {
+            "en": "Tai",
+            "fr": "Tai",
+            "zh": "Tai"
+        },
+        "price": "$4.50",
+        "image": "009.png",
+        "ingredients": {
+            "en": [
+                "Tilapia"
+            ],
+            "fr": [
+                "Tilapia"
+            ],
+            "zh": [
+                "罗非鱼"
+            ]
+        }
+    },
+    "10": {
+        "name": {
+            "en": "Unagi*",
+            "fr": "Unagi*",
+            "zh": "Unagi*"
+        },
+        "price": "$6.00",
+        "image": "010.png",
+        "ingredients": {
+            "en": [
+                "Grilled Eel"
+            ],
+            "fr": [
+                "Anguille Grillée"
+            ],
+            "zh": [
+                "烤鳗鱼"
+            ]
+        }
+    },
+    "11": {
+        "name": {
+            "en": "Hotategai",
+            "fr": "Hotategai",
+            "zh": "Hotategai"
+        },
+        "price": "$6.50",
+        "image": "011.png",
+        "ingredients": {
+            "en": [
+                "Scallop"
+            ],
+            "fr": [
+                "Pétoncle"
+            ],
+            "zh": [
+                "扇贝"
+            ]
+        }
+    },
+    "12": {
+        "name": {
+            "en": "Masago",
+            "fr": "Masago",
+            "zh": "Masago"
+        },
+        "price": "$4.50",
+        "image": "012.png",
+        "ingredients": {
+            "en": [
+                "Capelin Roe"
+            ],
+            "fr": [
+                "Caviar de caplin"
+            ],
+            "zh": [
+                "毛鳞鱼籽"
+            ]
+        }
+    },
+    "13": {
+        "name": {
+            "en": "Tobiko",
+            "fr": "Tobiko",
+            "zh": "Tobiko"
+        },
+        "price": "$5.25",
+        "image": "013.png",
+        "ingredients": {
+            "en": [
+                "Flying Fish Roe"
+            ],
+            "fr": [
+                "Caviar de Poisson Volant"
+            ],
+            "zh": [
+                "飞鱼籽"
+            ]
+        }
+    },
+    "13a": {
+        "name": {
+            "en": "Ikura",
+            "fr": "Ikura",
+            "zh": "Ikura"
+        },
+        "price": "$7.00",
+        "image": "13a.png",
+        "ingredients": {
+            "en": [
+                "Salmon Roe"
+            ],
+            "fr": [
+                "Caviar de Saumon"
+            ],
+            "zh": [
+                "三文鱼籽"
+            ]
+        }
+    },
+    "14": {
+        "name": {
+            "en": "Sake tempura",
+            "fr": "Sake tempura",
+            "zh": "Sake tempura"
+        },
+        "price": "$6.00",
+        "image": "014.png",
+        "ingredients": {
+            "en": [
+                "Spicy Salmon"
+            ],
+            "fr": [
+                "Saumon Épicé"
+            ],
+            "zh": [
+                "辣三文鱼"
+            ]
+        }
+    },
+    "15": {
+        "name": {
+            "en": "Tako tempura",
+            "fr": "Tako tempura",
+            "zh": "Tako tempura"
+        },
+        "price": "$5.50",
+        "image": "015.png",
+        "ingredients": {
+            "en": [
+                "Spicy Octopus"
+            ],
+            "fr": [
+                "Pieuvre Épicée"
+            ],
+            "zh": [
+                "辣章鱼"
+            ]
+        }
+    },
+    "16": {
+        "name": {
+            "en": "Maguro tempura",
+            "fr": "Maguro tempura",
+            "zh": "Maguro tempura"
+        },
+        "price": "$6.50",
+        "image": "016.png",
+        "ingredients": {
+            "en": [
+                "Spicy Tuna"
+            ],
+            "fr": [
+                "Thon Épicé"
+            ],
+            "zh": [
+                "辣金枪鱼"
+            ]
+        }
+    }
+}

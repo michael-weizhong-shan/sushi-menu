@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Kitchen Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            touch-action: manipulation;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            min-height: 100vh;
+        }
+
+        .input-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .display-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            min-height: 500px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #4a5568;
+        }
+
+        .language-selector {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .language-selector select {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: #2d3748;
+            cursor: pointer;
+            min-width: 150px;
+        }
+
+        .language-selector select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .number-display {
+            background: #f7fafc;
+            border: 3px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 15px;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2d3748;
+        }
+
+        .most-ordered {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #4a5568;
+            text-align: center;
+        }
+
+        .quick-buttons {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .quick-button {
+            background: linear-gradient(145deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 15px 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .quick-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .quick-button:active {
+            transform: translateY(0);
+        }
+
+        .number-pad {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .letter-pad {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .number-pad button, .letter-pad button {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: #2d3748;
+        }
+
+        .number-pad button:hover, .letter-pad button:hover {
+            background: #edf2f7;
+            border-color: #cbd5e0;
+        }
+
+        .number-pad button:active, .letter-pad button:active {
+            background: #e2e8f0;
+            transform: scale(0.95);
+        }
+
+        .action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .clear-btn {
+            background: #fed7d7;
+            border: 2px solid #feb2b2;
+            color: #c53030;
+        }
+
+        .clear-btn:hover {
+            background: #fbb6bb;
+        }
+
+        .enter-btn {
+            background: #c6f6d5;
+            border: 2px solid #9ae6b4;
+            color: #2f855a;
+        }
+
+        .enter-btn:hover {
+            background: #9ae6b4;
+        }
+
+        .sushi-display {
+            text-align: center;
+        }
+
+        .sushi-image {
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .sushi-info h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .sushi-number {
+            font-size: 24px;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .sushi-price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #38a169;
+            margin-bottom: 20px;
+        }
+
+        .ingredients {
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .ingredients h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4a5568;
+            margin-bottom: 15px;
+        }
+
+        .ingredient-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .ingredient-tag {
+            background: #e6fffa;
+            border: 1px solid #81e6d9;
+            color: #234e52;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .not-found {
+            text-align: center;
+            color: #718096;
+            font-size: 24px;
+            padding: 60px 20px;
+        }
+
+        .error-message {
+            background: #fed7d7;
+            border: 1px solid #feb2b2;
+            color: #c53030;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .input-section {
+                position: static;
+            }
+            
+            .quick-buttons {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .number-pad button, .letter-pad button {
+                padding: 15px;
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1 class="title">Sushi Menu</h1>
+            
+            <div class="language-selector">
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                    <option value="zh">中文</option>
+                </select>
+            </div>
+            
+            <div class="number-display" id="numberDisplay">Enter Number</div>
+            
+            <div class="most-ordered">
+                <div class="section-title">Most Ordered</div>
+                <div class="quick-buttons" id="quickButtons">
+                    <!-- Quick buttons will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="section-title">Number Pad</div>
+            <div class="number-pad">
+                <button onclick="addNumber('1')">1</button>
+                <button onclick="addNumber('2')">2</button>
+                <button onclick="addNumber('3')">3</button>
+                <button onclick="addNumber('4')">4</button>
+                <button onclick="addNumber('5')">5</button>
+                <button onclick="addNumber('6')">6</button>
+                <button onclick="addNumber('7')">7</button>
+                <button onclick="addNumber('8')">8</button>
+                <button onclick="addNumber('9')">9</button>
+                <button onclick="addNumber('0')" style="grid-column: span 2;">0</button>
+                <button onclick="backspace()">⌫</button>
+            </div>
+            
+            <div class="section-title">Letter Pad</div>
+            <div class="letter-pad">
+                <button onclick="addNumber('a')">A</button>
+                <button onclick="addNumber('b')">B</button>
+                <button onclick="addNumber('c')">C</button>
+                <button onclick="addNumber('p')">P</button>
+                <button onclick="addNumber('r')">R</button>
+                <button onclick="addNumber('x')">X</button>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="clear-btn" onclick="clearNumber()">Clear</button>
+                <button class="enter-btn" onclick="searchSushi()">Enter</button>
+            </div>
+        </div>
+        
+        <div class="display-section">
+            <div class="sushi-display" id="sushiDisplay">
+                <div class="not-found">
+                    <h2>Welcome to Sushi Kitchen</h2>
+                    <p>Enter a menu number to see the sushi details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let sushiData = {};
+        let currentLanguage = 'fr';
+
+        // Language-specific UI text
+        const uiText = {
+            en: {
+                title: "Sushi Menu",
+                enterNumber: "Enter Number",
+                mostOrdered: "Most Ordered",
+                numberPad: "Number Pad",
+                letterPad: "Letter Pad",
+                clear: "Clear",
+                enter: "Enter",
+                ingredients: "Ingredients:",
+                welcome: "Welcome to Sushi Kitchen",
+                welcomeSubtext: "Enter a menu number to see the sushi details",
+                notFound: "Not Found",
+                notFoundSubtext: "Please check the menu number and try again"
+            },
+            fr: {
+                title: "Menu Sushi",
+                enterNumber: "Entrez le Numéro",
+                mostOrdered: "Plus Commandés",
+                numberPad: "Pavé Numérique",
+                letterPad: "Pavé Lettres",
+                clear: "Effacer",
+                enter: "Entrée",
+                ingredients: "Ingrédients:",
+                welcome: "Bienvenue au Kitchen Sushi",
+                welcomeSubtext: "Entrez un numéro de menu pour voir les détails du sushi",
+                notFound: "Introuvable",
+                notFoundSubtext: "Veuillez vérifier le numéro du menu et réessayer"
+            },
+            zh: {
+                title: "寿司菜单",
+                enterNumber: "输入编号",
+                mostOrdered: "最常点的",
+                numberPad: "数字键盘",
+                letterPad: "字母键盘",
+                clear: "清除",
+                enter: "确认",
+                ingredients: "配料:",
+                welcome: "欢迎来到寿司厨房",
+                welcomeSubtext: "输入菜单编号查看寿司详情",
+                notFound: "未找到",
+                notFoundSubtext: "请检查菜单编号并重试"
+            }
+        };
+
+        // Load sushi data from JSON file
+        async function loadSushiData() {
+            try {
+                const response = await fetch('data/sushi-menu.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load menu data');
+                }
+                sushiData = await response.json();
+                updateQuickButtons();
+            } catch (error) {
+                console.error('Error loading sushi data:', error);
+                // Fallback to sample data if file not found
+                sushiData = {
+                    1: {
+                        name: {
+                            en: "Salmon Nigiri",
+                            fr: "Nigiri de Saumon",
+                            zh: "三文鱼握寿司"
+                        },
+                        price: "$3.50",
+                        ingredients: {
+                            en: ["Fresh Salmon", "Sushi Rice", "Wasabi"],
+                            fr: ["Saumon Frais", "Riz à Sushi", "Wasabi"],
+                            zh: ["新鲜三文鱼", "寿司米", "芥末"]
+                        }
+                    },
+                    2: {
+                        name: {
+                            en: "Tuna Sashimi",
+                            fr: "Sashimi de Thon",
+                            zh: "金枪鱼刺身"
+                        },
+                        price: "$4.20",
+                        ingredients: {
+                            en: ["Fresh Tuna", "Pickled Ginger", "Soy Sauce"],
+                            fr: ["Thon Frais", "Gingembre Mariné", "Sauce Soja"],
+                            zh: ["新鲜金枪鱼", "腌姜", "酱油"]
+                        }
+                    },
+                    'c2a': {
+                        name: {
+                            en: "California Roll",
+                            fr: "Rouleau California",
+                            zh: "加州卷"
+                        },
+                        price: "$6.80",
+                        ingredients: {
+                            en: ["Imitation Crab", "Avocado", "Cucumber", "Nori", "Sushi Rice", "Sesame Seeds"],
+                            fr: ["Crabe d'Imitation", "Avocat", "Concombre", "Nori", "Riz à Sushi", "Graines de Sésame"],
+                            zh: ["仿蟹肉", "牛油果", "黄瓜", "海苔", "寿司米", "芝麻"]
+                        }
+                    },
+                    'p1': {
+                        name: {
+                            en: "Spicy Tuna Roll",
+                            fr: "Rouleau de Thon Épicé",
+                            zh: "辣金枪鱼卷"
+                        },
+                        price: "$7.50",
+                        ingredients: {
+                            en: ["Spicy Tuna", "Cucumber", "Nori", "Sushi Rice", "Spicy Mayo", "Scallions"],
+                            fr: ["Thon Épicé", "Concombre", "Nori", "Riz à Sushi", "Mayo Épicée", "Échalotes"],
+                            zh: ["辣金枪鱼", "黄瓜", "海苔", "寿司米", "辣蛋黄酱", "葱"]
+                        }
+                    },
+                    'x1': {
+                        name: {
+                            en: "Dragon Roll",
+                            fr: "Rouleau Dragon",
+                            zh: "龙卷"
+                        },
+                        price: "$12.90",
+                        ingredients: {
+                            en: ["Eel", "Avocado", "Cucumber", "Nori", "Sushi Rice", "Eel Sauce", "Sesame Seeds"],
+                            fr: ["Anguille", "Avocat", "Concombre", "Nori", "Riz à Sushi", "Sauce Anguille", "Graines de Sésame"],
+                            zh: ["鳗鱼", "牛油果", "黄瓜", "海苔", "寿司米", "鳗鱼酱", "芝麻"]
+                        }
+                    }
+                };
+                updateQuickButtons();
+            }
+        }
+
+        let currentNumber = "";
+        let orderCounts = JSON.parse(localStorage.getItem('sushiOrderCounts')) || {};
+
+        function updateDisplay() {
+            const display = document.getElementById('numberDisplay');
+            display.textContent = currentNumber || uiText[currentLanguage].enterNumber;
+        }
+
+        function changeLanguage() {
+            const select = document.getElementById('languageSelect');
+            currentLanguage = select.value;
+            localStorage.setItem('sushiLanguage', currentLanguage);
+            updateUI();
+            
+            // Refresh current display if showing sushi
+            const currentDisplay = document.getElementById('sushiDisplay');
+            if (currentDisplay && currentDisplay.querySelector('.sushi-info')) {
+                const numberElement = currentDisplay.querySelector('.sushi-number');
+                if (numberElement) {
+                    const number = numberElement.textContent.replace('#', '');
+                    if (sushiData[number]) {
+                        displaySushi(sushiData[number], number);
+                    }
+                }
+            }
+        }
+
+        function updateUI() {
+            const text = uiText[currentLanguage];
+            
+            // Update static text elements
+            document.querySelector('.title').textContent = text.title;
+            document.querySelector('.section-title').textContent = text.mostOrdered;
+            document.querySelectorAll('.section-title')[1].textContent = text.numberPad;
+            document.querySelectorAll('.section-title')[2].textContent = text.letterPad;
+            document.querySelector('.clear-btn').textContent = text.clear;
+            document.querySelector('.enter-btn').textContent = text.enter;
+            
+            updateDisplay();
+            
+            // Update welcome message if showing
+            const welcomeDiv = document.querySelector('.not-found h2');
+            if (welcomeDiv && (welcomeDiv.textContent.includes('Welcome') || welcomeDiv.textContent.includes('Bienvenue'))) {
+                showWelcome();
+            }
+        }
+
+        function showWelcome() {
+            const display = document.getElementById('sushiDisplay');
+            const text = uiText[currentLanguage];
+            display.innerHTML = `
+                <div class="not-found">
+                    <h2>${text.welcome}</h2>
+                    <p>${text.welcomeSubtext}</p>
+                </div>
+            `;
+        }
+
+        function addNumber(char) {
+            if (currentNumber.length < 10) { // Increased limit for alphanumeric
+                currentNumber += char;
+                updateDisplay();
+            }
+        }
+
+        function backspace() {
+            currentNumber = currentNumber.slice(0, -1);
+            updateDisplay();
+        }
+
+        function clearNumber() {
+            currentNumber = "";
+            updateDisplay();
+        }
+
+        function searchSushi(number = null) {
+            const searchNumber = number || currentNumber;
+            
+            if (!searchNumber) {
+                showError("Please enter a valid number");
+                return;
+            }
+
+            const sushi = sushiData[searchNumber];
+            
+            if (!sushi) {
+                showNotFound(searchNumber);
+                return;
+            }
+
+            // Update order count
+            orderCounts[searchNumber] = (orderCounts[searchNumber] || 0) + 1;
+            localStorage.setItem('sushiOrderCounts', JSON.stringify(orderCounts));
+            
+            displaySushi(sushi, searchNumber);
+            updateQuickButtons();
+            clearNumber();
+        }
+
+        function displaySushi(sushi, number) {
+            const display = document.getElementById('sushiDisplay');
+            const text = uiText[currentLanguage];
+            
+            // Get localized name and ingredients
+            const name = sushi.name[currentLanguage] || sushi.name.en;
+            const ingredients = sushi.ingredients[currentLanguage] || sushi.ingredients.en;
+            
+            const ingredientTags = ingredients.map(ingredient => 
+                `<span class="ingredient-tag">${ingredient}</span>`
+            ).join('');
+
+            // Generate image path based on number format
+            let imagePath;
+            if (sushi.image) {
+                // Use the image from the data if specified
+                imagePath = `images/${sushi.image}`;
+            } else {
+                // Generate image name based on number
+                if (/^[a-zA-Z]/.test(number)) {
+                    // If starts with letter, use as is with .png extension
+                    imagePath = `images/${number}.png`;
+                } else {
+                    // If purely numeric, pad with zeros to 3 digits
+                    const paddedNumber = String(number).padStart(3, '0');
+                    imagePath = `images/${paddedNumber}.jpg`;
+                }
+            }
+
+            display.innerHTML = `
+                <img src="${imagePath}" alt="${name}" class="sushi-image">
+                <div class="sushi-info">
+                    <div class="sushi-number">#${number}</div>
+                    <h2>${name}</h2>
+                    <div class="sushi-price">${sushi.price}</div>
+                    <div class="ingredients">
+                        <h3>${text.ingredients}</h3>
+                        <div class="ingredient-list">
+                            ${ingredientTags}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showNotFound(number) {
+            const display = document.getElementById('sushiDisplay');
+            const text = uiText[currentLanguage];
+            display.innerHTML = `
+                <div class="not-found">
+                    <h2>${text.notFound} #${number}</h2>
+                    <p>${text.notFoundSubtext}</p>
+                </div>
+            `;
+            // Auto-clear input after showing error
+            setTimeout(() => {
+                clearNumber();
+            }, 1500);
+        }
+
+        function showError(message) {
+            const display = document.getElementById('sushiDisplay');
+            display.innerHTML = `
+                <div class="error-message">
+                    ${message}
+                </div>
+                <div class="not-found">
+                    <h2>Welcome to Sushi Kitchen</h2>
+                    <p>Enter a menu number to see the sushi details</p>
+                </div>
+            `;
+        }
+
+        function updateQuickButtons() {
+            const quickButtonsContainer = document.getElementById('quickButtons');
+            
+            // Get top 10 most ordered items
+            const sortedItems = Object.entries(orderCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .filter(([number]) => sushiData[number]); // Only include items that exist
+
+            // If no orders yet, show some default popular items
+            if (sortedItems.length === 0) {
+                const defaultItems = [1, 2, 'c2a', 'p1', 'x1'];
+                quickButtonsContainer.innerHTML = defaultItems.map(num => 
+                    `<button class="quick-button" onclick="searchSushi('${num}')">${num}</button>`
+                ).join('');
+            } else {
+                quickButtonsContainer.innerHTML = sortedItems.map(([number, count]) => 
+                    `<button class="quick-button" onclick="searchSushi('${number}')">${number}</button>`
+                ).join('');
+            }
+        }
+
+        // Keyboard support
+        document.addEventListener('keydown', function(event) {
+            if (event.key >= '0' && event.key <= '9') {
+                addNumber(event.key);
+            } else if (['a', 'b', 'c', 'p', 'r', 'x'].includes(event.key.toLowerCase())) {
+                addNumber(event.key.toLowerCase());
+            } else if (event.key === 'Enter') {
+                searchSushi();
+            } else if (event.key === 'Backspace') {
+                backspace();
+            } else if (event.key === 'Escape') {
+                clearNumber();
+            }
+        });
+
+        // Initialize the app
+        function initApp() {
+            // Load saved language preference, default to French
+            const savedLanguage = localStorage.getItem('sushiLanguage');
+            if (savedLanguage) {
+                currentLanguage = savedLanguage;
+            } else {
+                currentLanguage = 'fr'; // Default to French
+            }
+            document.getElementById('languageSelect').value = currentLanguage;
+            
+            loadSushiData();
+            updateUI();
+            showWelcome();
+        }
+        
+        initApp();
+    </script>
+</body>
+</html>
