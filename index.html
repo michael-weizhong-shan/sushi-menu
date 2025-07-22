@@ -122,6 +122,7 @@
             cursor: pointer;
             transition: all 0.2s;
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            min-height: 60px;
         }
 
         .quick-button:hover {
@@ -142,7 +143,7 @@
 
         .letter-pad {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 12px;
             margin-bottom: 20px;
         }
@@ -151,12 +152,15 @@
             background: #f7fafc;
             border: 2px solid #e2e8f0;
             border-radius: 12px;
-            padding: 20px;
+            padding: 25px 10px;
             font-size: 28px;
             font-weight: bold;
             cursor: pointer;
             transition: all 0.2s;
             color: #2d3748;
+            min-height: 70px;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
         }
 
         .number-pad button:hover, .letter-pad button:hover {
@@ -173,6 +177,23 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 12px;
+            margin-top: 20px;
+        }
+
+        .clear-btn, .enter-btn {
+            padding: 25px 10px;
+            font-size: 24px;
+            border-radius: 15px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
         }
 
         .clear-btn {
@@ -290,9 +311,20 @@
                 grid-template-columns: repeat(3, 1fr);
             }
             
+            .letter-pad {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
             .number-pad button, .letter-pad button {
-                padding: 15px;
+                padding: 20px;
                 font-size: 24px;
+                min-height: 60px;
+            }
+            
+            .clear-btn, .enter-btn {
+                padding: 30px 15px;
+                font-size: 28px;
+                height: 90px;
             }
         }
     </style>
@@ -339,6 +371,7 @@
                 <button onclick="addNumber('a')">A</button>
                 <button onclick="addNumber('b')">B</button>
                 <button onclick="addNumber('c')">C</button>
+                <button onclick="addNumber('d')">D</button>
                 <button onclick="addNumber('p')">P</button>
                 <button onclick="addNumber('r')">R</button>
                 <button onclick="addNumber('x')">X</button>
@@ -424,7 +457,7 @@
                 console.error('Error loading sushi data:', error);
                 // Fallback to sample data if file not found
                 sushiData = {
-                    1: {
+                    '1': {
                         name: {
                             en: "Salmon Nigiri",
                             fr: "Nigiri de Saumon",
@@ -437,7 +470,7 @@
                             zh: ["新鲜三文鱼", "寿司米", "芥末"]
                         }
                     },
-                    2: {
+                    '2': {
                         name: {
                             en: "Tuna Sashimi",
                             fr: "Sashimi de Thon",
@@ -450,43 +483,79 @@
                             zh: ["新鲜金枪鱼", "腌姜", "酱油"]
                         }
                     },
-                    'c2a': {
-                        name: {
-                            en: "California Roll",
-                            fr: "Rouleau California",
-                            zh: "加州卷"
-                        },
-                        price: "$6.80",
-                        ingredients: {
-                            en: ["Imitation Crab", "Avocado", "Cucumber", "Nori", "Sushi Rice", "Sesame Seeds"],
-                            fr: ["Crabe d'Imitation", "Avocat", "Concombre", "Nori", "Riz à Sushi", "Graines de Sésame"],
-                            zh: ["仿蟹肉", "牛油果", "黄瓜", "海苔", "寿司米", "芝麻"]
-                        }
-                    },
                     'p1': {
                         name: {
-                            en: "Spicy Tuna Roll",
-                            fr: "Rouleau de Thon Épicé",
-                            zh: "辣金枪鱼卷"
+                            en: "Vegetarian Platter",
+                            fr: "Végé",
+                            zh: "素食拼盘"
                         },
-                        price: "$7.50",
+                        price: "$16.00",
                         ingredients: {
-                            en: ["Spicy Tuna", "Cucumber", "Nori", "Sushi Rice", "Spicy Mayo", "Scallions"],
-                            fr: ["Thon Épicé", "Concombre", "Nori", "Riz à Sushi", "Mayo Épicée", "Échalotes"],
-                            zh: ["辣金枪鱼", "黄瓜", "海苔", "寿司米", "辣蛋黄酱", "葱"]
+                            en: [
+                                "Sweet potato tempura",
+                                "Inari",
+                                "Edamame"
+                            ],
+                            fr: [
+                                "Patate sucrée tempura",
+                                "inari",
+                                "edamame"
+                            ],
+                            zh: [
+                                "红薯天妇罗",
+                                "油豆腐皮",
+                                "毛豆"
+                            ]
                         }
                     },
-                    'x1': {
+                    'P2': {
                         name: {
-                            en: "Dragon Roll",
-                            fr: "Rouleau Dragon",
-                            zh: "龙卷"
+                            en: "Crab & Shrimp Platter",
+                            fr: "Crabe & Crevettes",
+                            zh: "蟹肉虾肉拼盘"
                         },
-                        price: "$12.90",
+                        price: "$18.00",
                         ingredients: {
-                            en: ["Eel", "Avocado", "Cucumber", "Nori", "Sushi Rice", "Eel Sauce", "Sesame Seeds"],
-                            fr: ["Anguille", "Avocat", "Concombre", "Nori", "Riz à Sushi", "Sauce Anguille", "Graines de Sésame"],
-                            zh: ["鳗鱼", "牛油果", "黄瓜", "海苔", "寿司米", "鳗鱼酱", "芝麻"]
+                            en: [
+                                "Shrimp tempura",
+                                "Marinated shrimp",
+                                "Spicy crab",
+                                "Pollock"
+                            ],
+                            fr: [
+                                "Crevettes tempura",
+                                "crevettes marinées",
+                                "crabe épicé",
+                                "goberge"
+                            ],
+                            zh: [
+                                "天妇罗虾",
+                                "腌虾",
+                                "辣蟹肉",
+                                "鳕鱼"
+                            ]
+                        }
+                    },
+                    'X1': {
+                        name: {
+                            en: "Harmonie – 5 pcs",
+                            fr: "Harmonie – 5 mcx",
+                            zh: "和谐卷 – 5件"
+                        },
+                        price: "$12.00",
+                        ingredients: {
+                            en: [
+                                "Tuna tartare, shrimp tempura, crab meat, tobiko, cucumber, fried onion, spicy mayonnaise",
+                                "Sesame and teriyaki sauce"
+                            ],
+                            fr: [
+                                "Tartare de thon, crevette tempura, chair de crabe, tobiko, concombre, oignon frit, mayonnaise épicée",
+                                "Sauce sésame et teriyaki"
+                            ],
+                            zh: [
+                                "金枪鱼鞑靼、炸虾天妇罗、蟹肉、飞鱼籽、黄瓜、炸洋葱、辣味蛋黄酱",
+                                "芝麻酱和照烧酱"
+                            ]
                         }
                     }
                 };
@@ -514,8 +583,10 @@
                 const numberElement = currentDisplay.querySelector('.sushi-number');
                 if (numberElement) {
                     const number = numberElement.textContent.replace('#', '');
-                    if (sushiData[number]) {
-                        displaySushi(sushiData[number], number);
+                    const normalizedSearch = number.toLowerCase();
+                    const sushiKey = Object.keys(sushiData).find(key => key.toLowerCase() === normalizedSearch);
+                    if (sushiKey && sushiData[sushiKey]) {
+                        displaySushi(sushiData[sushiKey], sushiKey);
                     }
                 }
             }
@@ -608,35 +679,15 @@
                 ingredients.map(ingredient => `<span class="ingredient-tag">${ingredient}</span>`).join('') :
                 '';
 
-            // Handle image path - try both cases if needed
+            // Generate image path based on number format
             let imagePath;
             if (sushi.image) {
                 // Use the image from the data if specified
                 imagePath = `images/${sushi.image}`;
             } else {
-                // Generate image name - try both cases
+                // Generate image name based on number
                 const baseName = number.replace(/[^a-z0-9]/gi, '');
-                const extensions = ['.png', '.jpg', '.jpeg'];
-                
-                // Try to find the image with case-insensitive matching
-                let foundImage = null;
-                for (const ext of extensions) {
-                    const possibleNames = [
-                        `${baseName}${ext}`,
-                        `${baseName.toLowerCase()}${ext}`,
-                        `${baseName.toUpperCase()}${ext}`
-                    ];
-                    
-                    for (const name of possibleNames) {
-                        // This is a placeholder - in a real app you'd check if the file exists
-                        // or handle 404 errors with an onError handler
-                        foundImage = name;
-                        break;
-                    }
-                    if (foundImage) break;
-                }
-                
-                imagePath = foundImage ? `images/${foundImage}` : 'images/default.png';
+                imagePath = `images/${baseName}.png`;
             }
 
             display.innerHTML = `
@@ -699,7 +750,7 @@
             // If no orders yet, show some default popular items
             if (sortedItems.length === 0) {
                 // Use items that exist in the data (case-insensitive)
-                const possibleDefaults = ['1', '2', 'c2a', 'p1', 'P2', 'X1'];
+                const possibleDefaults = ['1', '2', 'p1', 'P2', 'X1'];
                 const defaultItems = possibleDefaults.filter(num => {
                     const normalized = num.toLowerCase();
                     return Object.keys(sushiData).some(key => key.toLowerCase() === normalized);
@@ -719,7 +770,7 @@
         document.addEventListener('keydown', function(event) {
             if (event.key >= '0' && event.key <= '9') {
                 addNumber(event.key);
-            } else if (['a', 'b', 'c', 'p', 'r', 'x'].includes(event.key.toLowerCase())) {
+            } else if (['a', 'b', 'c', 'd', 'p', 'r', 'x'].includes(event.key.toLowerCase())) {
                 addNumber(event.key.toLowerCase());
             } else if (event.key === 'Enter') {
                 searchSushi();

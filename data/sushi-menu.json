@@ -3937,14 +3937,14 @@
       ]
     }
   },
-  "Bento A": {
+  "BA": {
     "name": {
       "en": "Grilled Eel Bento Box",
       "fr": "Bento A (Anguille grillée)",
       "zh": "烤鳗鱼便当盒"
     },
     "price": "$21.00",
-    "image": "BentoA.png",
+    "image": "BA.png",
     "ingredients": {
       "en": [
         "Rice",
@@ -3981,14 +3981,14 @@
       ]
     }
   },
-  "Bento B": {
+  "BB": {
     "name": {
       "en": "General Tao Bento Box",
       "fr": "Bento B (General tao)",
       "zh": "左宗棠鸡便当盒"
     },
     "price": "$20.00",
-    "image": "BentoB.png",
+    "image": "BB.png",
     "ingredients": {
       "en": [
         "Rice",
@@ -4025,14 +4025,14 @@
       ]
     }
   },
-  "Bento C": {
+  "BC": {
     "name": {
       "en": "Vegetarian Bento Box",
       "fr": "Bento C (Végé)",
       "zh": "素食便当盒"
     },
     "price": "$20.00",
-    "image": "BentoC.png",
+    "image": "BC.png",
     "ingredients": {
       "en": [
         "Rice",
