@@ -1323,14 +1323,14 @@
             ]
         }
     },
-    "P1": {
+    "p1": {
         "name": {
             "en": "Vegetarian Platter",
             "fr": "Végé",
             "zh": "素食拼盘"
         },
         "price": "$16.00",
-        "image": "P1.png",
+        "image": "p1.png",
         "ingredients": {
             "en": [
                 "Sweet potato tempura",
