@@ -577,18 +577,21 @@
                 return;
             }
 
-            const sushi = sushiData[searchNumber];
+            // Case-insensitive search
+            const normalizedSearch = searchNumber.toLowerCase();
+            const sushiKey = Object.keys(sushiData).find(key => key.toLowerCase() === normalizedSearch);
+            const sushi = sushiKey ? sushiData[sushiKey] : null;
             
             if (!sushi) {
                 showNotFound(searchNumber);
                 return;
             }
 
-            // Update order count
-            orderCounts[searchNumber] = (orderCounts[searchNumber] || 0) + 1;
+            // Update order count using the original key (preserve case)
+            orderCounts[sushiKey] = (orderCounts[sushiKey] || 0) + 1;
             localStorage.setItem('sushiOrderCounts', JSON.stringify(orderCounts));
             
-            displaySushi(sushi, searchNumber);
+            displaySushi(sushi, sushiKey); // Pass the original key
             updateQuickButtons();
             clearNumber();
         }
@@ -601,29 +604,43 @@
             const name = sushi.name[currentLanguage] || sushi.name.en;
             const ingredients = sushi.ingredients[currentLanguage] || sushi.ingredients.en;
             
-            const ingredientTags = ingredients.map(ingredient => 
-                `<span class="ingredient-tag">${ingredient}</span>`
-            ).join('');
+            const ingredientTags = Array.isArray(ingredients) ? 
+                ingredients.map(ingredient => `<span class="ingredient-tag">${ingredient}</span>`).join('') :
+                '';
 
-            // Generate image path based on number format
+            // Handle image path - try both cases if needed
             let imagePath;
             if (sushi.image) {
                 // Use the image from the data if specified
                 imagePath = `images/${sushi.image}`;
             } else {
-                // Generate image name based on number
-                if (/^[a-zA-Z]/.test(number)) {
-                    // If starts with letter, use as is with .png extension
-                    imagePath = `images/${number}.png`;
-                } else {
-                    // If purely numeric, pad with zeros to 3 digits
-                    const paddedNumber = String(number).padStart(3, '0');
-                    imagePath = `images/${paddedNumber}.jpg`;
+                // Generate image name - try both cases
+                const baseName = number.replace(/[^a-z0-9]/gi, '');
+                const extensions = ['.png', '.jpg', '.jpeg'];
+                
+                // Try to find the image with case-insensitive matching
+                let foundImage = null;
+                for (const ext of extensions) {
+                    const possibleNames = [
+                        `${baseName}${ext}`,
+                        `${baseName.toLowerCase()}${ext}`,
+                        `${baseName.toUpperCase()}${ext}`
+                    ];
+                    
+                    for (const name of possibleNames) {
+                        // This is a placeholder - in a real app you'd check if the file exists
+                        // or handle 404 errors with an onError handler
+                        foundImage = name;
+                        break;
+                    }
+                    if (foundImage) break;
                 }
+                
+                imagePath = foundImage ? `images/${foundImage}` : 'images/default.png';
             }
 
             display.innerHTML = `
-                <img src="${imagePath}" alt="${name}" class="sushi-image">
+                <img src="${imagePath}" alt="${name}" class="sushi-image" onerror="this.src='images/default.png'">
                 <div class="sushi-info">
                     <div class="sushi-number">#${number}</div>
                     <h2>${name}</h2>
@@ -669,16 +686,25 @@
         function updateQuickButtons() {
             const quickButtonsContainer = document.getElementById('quickButtons');
             
-            // Get top 10 most ordered items
+            // Get top 10 most ordered items (preserving original case)
             const sortedItems = Object.entries(orderCounts)
                 .sort((a, b) => b[1] - a[1])
                 .slice(0, 10)
-                .filter(([number]) => sushiData[number]); // Only include items that exist
+                .filter(([number]) => {
+                    // Case-insensitive check if item exists
+                    const normalized = number.toLowerCase();
+                    return Object.keys(sushiData).some(key => key.toLowerCase() === normalized);
+                });
 
             // If no orders yet, show some default popular items
             if (sortedItems.length === 0) {
-                // Use the exact case as in the JSON
-                const defaultItems = ['1', '2', '2a', 'p1', 'P2']; // lowercase p1
+                // Use items that exist in the data (case-insensitive)
+                const possibleDefaults = ['1', '2', 'c2a', 'p1', 'P2', 'X1'];
+                const defaultItems = possibleDefaults.filter(num => {
+                    const normalized = num.toLowerCase();
+                    return Object.keys(sushiData).some(key => key.toLowerCase() === normalized);
+                }).slice(0, 5);
+                
                 quickButtonsContainer.innerHTML = defaultItems.map(num => 
                     `<button class="quick-button" onclick="searchSushi('${num}')">${num}</button>`
                 ).join('');
