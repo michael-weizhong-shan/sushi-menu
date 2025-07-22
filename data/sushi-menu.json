@@ -398,5 +398,3698 @@
                 "辣金枪鱼"
             ]
         }
+    },
+    "17": {
+        "name": {
+            "en": "Crab tempura",
+            "fr": "Crabe tempura",
+            "zh": "蟹天妇罗"
+        },
+        "price": "$6.00",
+        "image": "17.png",
+        "ingredients": {
+            "en": [
+                "Spicy Crab"
+            ],
+            "fr": [
+                "Crabe Épicé"
+            ],
+            "zh": [
+                "辣蟹肉"
+            ]
+        }
+    },
+    "18": {
+        "name": {
+            "en": "Shrimp tempura",
+            "fr": "Crevette tempura",
+            "zh": "虾天妇罗"
+        },
+        "price": "$5.50",
+        "image": "18.png",
+        "ingredients": {
+            "en": [
+                "Spicy Shrimp"
+            ],
+            "fr": [
+                "Crevette Épicée"
+            ],
+            "zh": [
+                "辣虾"
+            ]
+        }
+    },
+    "19": {
+        "name": {
+            "en": "Scallop tempura",
+            "fr": "Hotategai tempura",
+            "zh": "扇贝天妇罗"
+        },
+        "price": "$6.75",
+        "image": "19.png",
+        "ingredients": {
+            "en": [
+                "Spicy Scallop"
+            ],
+            "fr": [
+                "Pétoncle Épicée"
+            ],
+            "zh": [
+                "辣扇贝"
+            ]
+        }
+    },
+    "20": {
+        "name": {
+            "en": "Cucumber Roll",
+            "fr": "Kappa",
+            "zh": "黄瓜卷"
+        },
+        "price": "$4.95",
+        "image": "20.png",
+        "ingredients": {
+            "en": ["Cucumber Roll"],
+            "fr": ["Concombre"],
+            "zh": ["黄瓜卷"]
+        }
+    },
+    "21": {
+        "name": {
+            "en": "Avocado Roll",
+            "fr": "Avocado",
+            "zh": "牛油果卷"
+        },
+        "price": "$5.50",
+        "image": "21.png",
+        "ingredients": {
+            "en": ["Avocado Roll"],
+            "fr": ["Avocat"],
+            "zh": ["牛油果卷"]
+        }
+    },
+    "22": {
+        "name": {
+            "en": "Mango Roll",
+            "fr": "Mango",
+            "zh": "芒果卷"
+        },
+        "price": "$4.95",
+        "image": "22.png",
+        "ingredients": {
+            "en": ["Mango Roll"],
+            "fr": ["Mangue"],
+            "zh": ["芒果卷"]
+        }
+    },
+    "23": {
+        "name": {
+            "en": "Pickled Radish Roll",
+            "fr": "Oshinko",
+            "zh": "腌萝卜卷"
+        },
+        "price": "$5.25",
+        "image": "23.png",
+        "ingredients": {
+            "en": ["Pickled Radish Roll"],
+            "fr": ["Radis japonais mariné"],
+            "zh": ["腌萝卜卷"]
+        }
+    },
+    "24": {
+        "name": {
+            "en": "Sweet Potato Tempura Roll",
+            "fr": "Yam",
+            "zh": "甜薯天妇罗卷"
+        },
+        "price": "$5.50",
+        "image": "24.png",
+        "ingredients": {
+            "en": ["Sweet Potato Tempura Roll"],
+            "fr": ["Patate sucrée tempura"],
+            "zh": ["甜薯天妇罗卷"]
+        }
+    },
+    "25": {
+        "name": {
+            "en": "Shrimp Tempura with Spicy Mayo",
+            "fr": "Ebi Crunch",
+            "zh": "天妇罗虾配辣蛋黄酱"
+        },
+        "price": "$7.00",
+        "image": "25.png",
+        "ingredients": {
+            "en": ["Shrimp Tempura with Spicy Mayo"],
+            "fr": ["crevettes tempura, mayo épicée"],
+            "zh": ["天妇罗虾配辣蛋黄酱"]
+        }
+    },
+    "25a": {
+        "name": {
+            "en": "Fried Tofu Sushi",
+            "fr": "Inari Maki",
+            "zh": "油豆腐寿司"
+        },
+        "price": "$4.95",
+        "image": "25a.png",
+        "ingredients": {
+            "en": ["Fried Tofu Sushi"],
+            "fr": ["Tofu frit mariné"],
+            "zh": ["油豆腐寿司"]
+        }
+    },
+    "26": {
+        "name": {
+            "en": "Japanese Omelette",
+            "fr": "Tamago",
+            "zh": "日本蛋卷"
+        },
+        "price": "$5.45",
+        "image": "26.png",
+        "ingredients": {
+            "en": ["Japanese Omelette"],
+            "fr": ["Omelette japonaise"],
+            "zh": ["日本蛋卷"]
+        }
+    },
+    "27": {
+        "name": {
+            "en": "Japanese Crab Stick",
+            "fr": "Kani-Kama",
+            "zh": "日本蟹棒"
+        },
+        "price": "$5.00",
+        "image": "27.png",
+        "ingredients": {
+            "en": ["Japanese Crab Stick"],
+            "fr": ["Goberge japonais"],
+            "zh": ["日本蟹棒"]
+        }
+    },
+    "28": {
+        "name": {
+            "en": "Spicy Shrimp",
+            "fr": "Ebi épicé",
+            "zh": "辣虾"
+        },
+        "price": "$6.00",
+        "image": "28.png",
+        "ingredients": {
+            "en": ["Spicy Shrimp"],
+            "fr": ["Crevette épicée"],
+            "zh": ["辣虾"]
+        }
+    },
+    "29": {
+        "name": {
+            "en": "Spicy Snow Crab",
+            "fr": "Kani épicé",
+            "zh": "辣雪蟹"
+        },
+        "price": "$7.50",
+        "image": "29.png",
+        "ingredients": {
+            "en": ["Spicy Snow Crab"],
+            "fr": ["Crabe des neiges épicé"],
+            "zh": ["辣雪蟹"]
+        }
+    },
+    "30": {
+        "name": {
+            "en": "Spicy Tilapia",
+            "fr": "Tai épicé",
+            "zh": "辣罗非鱼"
+        },
+        "price": "$6.00",
+        "image": "30.png",
+        "ingredients": {
+            "en": ["Spicy Tilapia"],
+            "fr": ["Tilapia épicé"],
+            "zh": ["辣罗非鱼"]
+        }
+    },
+    "31": {
+        "name": {
+            "en": "Salmon Roll",
+            "fr": "Sake maki",
+            "zh": "三文鱼卷"
+        },
+        "price": "$7.95",
+        "image": "31.png",
+        "ingredients": {
+            "en": ["Salmon Roll"],
+            "fr": ["Saumon"],
+            "zh": ["三文鱼卷"]
+        }
+    },
+    "32": {
+        "name": {
+            "en": "Spicy Salmon",
+            "fr": "Sake épicé",
+            "zh": "辣三文鱼"
+        },
+        "price": "$7.95",
+        "image": "32.png",
+        "ingredients": {
+            "en": ["Spicy Salmon"],
+            "fr": ["Saumon épicé"],
+            "zh": ["辣三文鱼"]
+        }
+    },
+    "33": {
+        "name": {
+            "en": "Tuna Roll",
+            "fr": "Tekka",
+            "zh": "吞拿鱼卷"
+        },
+        "price": "$8.25",
+        "image": "33.png",
+        "ingredients": {
+            "en": ["Tuna Roll"],
+            "fr": ["Thon"],
+            "zh": ["吞拿鱼卷"]
+        }
+    },
+    "34": {
+        "name": {
+            "en": "Spicy Tuna Roll",
+            "fr": "Tekka épicé",
+            "zh": "辣吞拿鱼卷"
+        },
+        "price": "$8.25",
+        "image": "34.png",
+        "ingredients": {
+            "en": ["Spicy Tuna Roll"],
+            "fr": ["Thon épicé"],
+            "zh": ["辣吞拿鱼卷"]
+        }
+    },
+    "35": {
+        "name": {
+            "en": "Scallop",
+            "fr": "Hotategai",
+            "zh": "带子"
+        },
+        "price": "$8.00",
+        "image": "35.png",
+        "ingredients": {
+            "en": ["Scallop"],
+            "fr": ["Pétoncle"],
+            "zh": ["带子"]
+        }
+    },
+    "36": {
+        "name": {
+            "en": "Spicy Scallop",
+            "fr": "Hotategai épicée",
+            "zh": "辣带子"
+        },
+        "price": "$8.00",
+        "image": "36.png",
+        "ingredients": {
+            "en": ["Spicy Scallop"],
+            "fr": ["Pétoncle épicée"],
+            "zh": ["辣带子"]
+        }
+    },
+    "37": {
+        "name": {
+            "en": "Sunset",
+            "fr": "Sunset*",
+            "zh": "日落卷"
+        },
+        "price": "$9.95",
+        "image": "37.png",
+        "ingredients": {
+            "en": [
+                "Smoked Salmon",
+                "Surimi",
+                "Egg",
+                "Capelin Roe",
+                "Avocado",
+                "Light Mayonnaise"
+            ],
+            "fr": [
+                "Saumon fumée",
+                "goberge",
+                "tamago",
+                "masago",
+                "avocat",
+                "mayonnaise légère"
+            ],
+            "zh": [
+                "熏三文鱼",
+                "蟹柳",
+                "鸡蛋",
+                "飞鱼籽",
+                "牛油果",
+                "轻蛋黄酱"
+            ]
+        }
+    },
+    "38": {
+        "name": {
+            "en": "Philadelphia",
+            "fr": "Philadelphia*",
+            "zh": "费城卷"
+        },
+        "price": "$9.95",
+        "image": "38.png",
+        "ingredients": {
+            "en": [
+                "Smoked Salmon",
+                "Cream Cheese",
+                "Avocado"
+            ],
+            "fr": [
+                "Saumon fumé",
+                "fromage à la crème",
+                "avocat"
+            ],
+            "zh": [
+                "熏三文鱼",
+                "奶油奶酪",
+                "牛油果"
+            ]
+        }
+    },
+    "39": {
+        "name": {
+            "en": "Mini-Kami",
+            "fr": "Mini-Kami",
+            "zh": "迷你神卷"
+        },
+        "price": "$10.75",
+        "image": "39.png",
+        "ingredients": {
+            "en": [
+                "Tuna",
+                "Capelin Roe",
+                "Avocado",
+                "Tempura",
+                "Spicy Mayonnaise"
+            ],
+            "fr": [
+                "Thon",
+                "masago",
+                "avocat",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "金枪鱼",
+                "飞鱼籽",
+                "牛油果",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "43": {
+        "name": {
+            "en": "Double Saumon",
+            "fr": "Double Saumon",
+            "zh": "双三文鱼卷"
+        },
+        "price": "$10.95",
+        "image": "43.png",
+        "ingredients": {
+            "en": [
+                "Salmon",
+                "Flying Fish Roe",
+                "Avocado",
+                "Spicy Mayonnaise"
+            ],
+            "fr": [
+                "saumon",
+                "tobiko",
+                "avocat",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "三文鱼",
+                "飞鱼籽",
+                "牛油果",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "44": {
+        "name": {
+            "en": "Flocon (Vegetarian)",
+            "fr": "Flocon* (Végé)",
+            "zh": "雪花卷 (素食)"
+        },
+        "price": "$8.75",
+        "image": "44.png",
+        "ingredients": {
+            "en": [
+                "Sun-Dried Tomato",
+                "Cream Cheese",
+                "Avocado",
+                "Tempura",
+                "Spicy Mayonnaise with or without Flying Fish Roe"
+            ],
+            "fr": [
+                "Tomate séchée",
+                "fromage à la crème",
+                "avocat",
+                "tempura",
+                "mayonnaise épicée avec ou sans tobiko"
+            ],
+            "zh": [
+                "风干番茄",
+                "奶油奶酪",
+                "牛油果",
+                "天妇罗",
+                "辣蛋黄酱（有或无飞鱼籽）"
+            ]
+        }
+    },
+    "44a": {
+        "name": {
+            "en": "Edamaki (Vegetarian)",
+            "fr": "Edamaki* (Végé)",
+            "zh": "枝豆卷 (素食)"
+        },
+        "price": "$8.75",
+        "image": "44a.png",
+        "ingredients": {
+            "en": [
+                "Edamame",
+                "Avocado",
+                "Lettuce",
+                "Cucumber",
+                "Tempura",
+                "Spicy Mayonnaise"
+            ],
+            "fr": [
+                "Edamame",
+                "avocat",
+                "laitue",
+                "concombre",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "毛豆",
+                "牛油果",
+                "生菜",
+                "黄瓜",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "47": {
+        "name": {
+            "en": "Vége-Exotic (Vegetarian)",
+            "fr": "Végé-Exotic* (Végé)",
+            "zh": "异国蔬菜卷 (素食)"
+        },
+        "price": "$8.25",
+        "image": "47.png",
+        "ingredients": {
+            "en": [
+                "Assorted Japanese market vegetables",
+                "Tempura"
+            ],
+            "fr": [
+                "Variété de légumes du marché japonais",
+                "tempura"
+            ],
+            "zh": [
+                "多种日本市场蔬菜",
+                "天妇罗"
+            ]
+        }
+    },
+    "48": {
+        "name": {
+            "en": "Vége Yam (Vegetarian)",
+            "fr": "Végé Yam* (Végé)",
+            "zh": "山药蔬菜卷 (素食)"
+        },
+        "price": "$8.25",
+        "image": "48.png",
+        "ingredients": {
+            "en": [
+                "Avocado",
+                "Cucumber",
+                "Oshinko",
+                "Lettuce",
+                "Sweet potato tempura"
+            ],
+            "fr": [
+                "Avocat",
+                "concombres",
+                "oshinko",
+                "laitue",
+                "patate sucrée tempura"
+            ],
+            "zh": [
+                "牛油果",
+                "黄瓜",
+                "腌萝卜",
+                "生菜",
+                "红薯天妇罗"
+            ]
+        }
+    },
+    "48a": {
+        "name": {
+            "en": "Vége Sama (Vegetarian)",
+            "fr": "Végé Sama* (Végé)",
+            "zh": "蔬菜大人卷 (素食)"
+        },
+        "price": "$8.75",
+        "image": "48a.png",
+        "ingredients": {
+            "en": [
+                "Inari",
+                "Cucumber",
+                "Lettuce",
+                "Avocado",
+                "Wakame",
+                "Tempura"
+            ],
+            "fr": [
+                "Inari",
+                "concombre",
+                "laitue",
+                "avocat",
+                "wakame",
+                "tempura"
+            ],
+            "zh": [
+                "油豆腐皮",
+                "黄瓜",
+                "生菜",
+                "牛油果",
+                "海藻",
+                "天妇罗"
+            ]
+        }
+    },
+    "51": {
+        "name": {
+            "en": "Boston",
+            "fr": "Boston*",
+            "zh": "波士顿卷"
+        },
+        "price": "$7.95",
+        "image": "51.png",
+        "ingredients": {
+            "en": [
+                "Shrimp",
+                "Pollock",
+                "Cucumber",
+                "Tobiko",
+                "Lettuce",
+                "Light mayonnaise"
+            ],
+            "fr": [
+                "Crevettes",
+                "goberge",
+                "concombres",
+                "tobiko",
+                "laitue",
+                "mayonnaise légère"
+            ],
+            "zh": [
+                "虾",
+                "鳕鱼",
+                "黄瓜",
+                "飞鱼籽",
+                "生菜",
+                "轻蛋黄酱"
+            ]
+        }
+    },
+    "52": {
+        "name": {
+            "en": "New York",
+            "fr": "New York",
+            "zh": "纽约卷"
+        },
+        "price": "$9.25",
+        "image": "52.png",
+        "ingredients": {
+            "en": [
+                "Salmon",
+                "Tobiko",
+                "Masago",
+                "Tamago",
+                "Avocado",
+                "Cucumber",
+                "Lettuce",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Saumon",
+                "tobiko",
+                "masago",
+                "tamago",
+                "avocat",
+                "concombre",
+                "laitue",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "三文鱼",
+                "飞鱼籽",
+                "小鳕鱼籽",
+                "玉子烧",
+                "牛油果",
+                "黄瓜",
+                "生菜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "53": {
+        "name": {
+            "en": "Hawaii",
+            "fr": "Hawaii*",
+            "zh": "夏威夷卷"
+        },
+        "price": "$9.00",
+        "image": "53.png",
+        "ingredients": {
+            "en": [
+                "Shrimp",
+                "Pollock",
+                "Masago",
+                "Tempura",
+                "Pineapple",
+                "Avocado",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crevettes",
+                "goberge",
+                "masago",
+                "tempura",
+                "ananas",
+                "avocat",
+                "concombre",
+                "mayo épicé"
+            ],
+            "zh": [
+                "虾",
+                "鳕鱼",
+                "小鳕鱼籽",
+                "天妇罗",
+                "菠萝",
+                "牛油果",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "57": {
+        "name": {
+            "en": "Ebi-Tempura Sama",
+            "fr": "Ebi-Tempura Sama*",
+            "zh": "天妇罗虾大人卷"
+        },
+        "price": "$10.00",
+        "image": "57.png",
+        "ingredients": {
+            "en": [
+                "2 Shrimp tempura",
+                "Masago",
+                "Fried pepper",
+                "Breaded sweet potato",
+                "Cucumber",
+                "Oshinko",
+                "Teriyaki sauce",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "2 Crevettes tempura",
+                "masago",
+                "poivron frit",
+                "patate sucrée pannée",
+                "concombre",
+                "oshinko",
+                "sauce Terriyaki",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "2只天妇罗虾",
+                "小鳕鱼籽",
+                "炸辣椒",
+                "裹面包屑红薯",
+                "黄瓜",
+                "腌萝卜",
+                "照烧酱",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "58": {
+        "name": {
+            "en": "Tako Tempura",
+            "fr": "Tako Tempura*",
+            "zh": "章鱼天妇罗卷"
+        },
+        "price": "$9.00",
+        "image": "58.png",
+        "ingredients": {
+            "en": [
+                "Octopus",
+                "Tempura",
+                "Tobiko",
+                "Cucumber",
+                "Oshinko",
+                "Pollock",
+                "Lettuce",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Pieuvre",
+                "tempura",
+                "tobiko",
+                "concombre",
+                "oshinko",
+                "goberge",
+                "laitue",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "章鱼",
+                "天妇罗",
+                "飞鱼籽",
+                "黄瓜",
+                "腌萝卜",
+                "鳕鱼",
+                "生菜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "59": {
+        "name": {
+            "en": "Spicy Shrimp",
+            "fr": "Crevette Épicée*",
+            "zh": "辣虾卷"
+        },
+        "price": "$8.75",
+        "image": "59.png",
+        "ingredients": {
+            "en": [
+                "Shrimp",
+                "Pollock",
+                "Tobiko",
+                "Tempura",
+                "Avocado",
+                "Lettuce",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crevettes",
+                "goberge",
+                "tobiko",
+                "tempura",
+                "avocat",
+                "laitue",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "虾",
+                "鳕鱼",
+                "飞鱼籽",
+                "天妇罗",
+                "牛油果",
+                "生菜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "63": {
+        "name": {
+            "en": "Eel Teriyaki",
+            "fr": "Anguille Teriyaki*",
+            "zh": "照烧鳗鱼卷"
+        },
+        "price": "$9.75",
+        "image": "63.png",
+        "ingredients": {
+            "en": [
+                "Eel",
+                "Tobiko",
+                "Wakame",
+                "Avocado",
+                "Lettuce",
+                "Tempura",
+                "Teriyaki sauce"
+            ],
+            "fr": [
+                "Anguille",
+                "tobiko",
+                "wakamé",
+                "avocat",
+                "laitue",
+                "tempura",
+                "sauce Teriyaki"
+            ],
+            "zh": [
+                "鳗鱼",
+                "飞鱼籽",
+                "海藻",
+                "牛油果",
+                "生菜",
+                "天妇罗",
+                "照烧酱"
+            ]
+        }
+    },
+    "64": {
+        "name": {
+            "en": "Spicy Salmon",
+            "fr": "Saumon Épicé",
+            "zh": "辣三文鱼卷"
+        },
+        "price": "$9.00",
+        "image": "64.png",
+        "ingredients": {
+            "en": [
+                "Salmon",
+                "Tempura",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Saumon",
+                "tempura",
+                "concombre",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "三文鱼",
+                "天妇罗",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "65": {
+        "name": {
+            "en": "Spicy Tuna",
+            "fr": "Thon Épicé",
+            "zh": "辣金枪鱼卷"
+        },
+        "price": "$10.00",
+        "image": "65.png",
+        "ingredients": {
+            "en": [
+                "Tuna",
+                "Tempura",
+                "Avocado",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Thon",
+                "tempura",
+                "avocat",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "金枪鱼",
+                "天妇罗",
+                "牛油果",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "P1": {
+        "name": {
+            "en": "Vegetarian Platter",
+            "fr": "Végé",
+            "zh": "素食拼盘"
+        },
+        "price": "$16.00",
+        "image": "P1.png",
+        "ingredients": {
+            "en": [
+                "Sweet potato tempura",
+                "Inari",
+                "Edamame"
+            ],
+            "fr": [
+                "Patate sucrée tempura",
+                "inari",
+                "edamame"
+            ],
+            "zh": [
+                "红薯天妇罗",
+                "油豆腐皮",
+                "毛豆"
+            ]
+        }
+    },
+    "P2": {
+        "name": {
+            "en": "Crab & Shrimp Platter",
+            "fr": "Crabe & Crevettes",
+            "zh": "蟹肉虾肉拼盘"
+        },
+        "price": "$18.00",
+        "image": "P2.png",
+        "ingredients": {
+            "en": [
+                "Shrimp tempura",
+                "Marinated shrimp",
+                "Spicy crab",
+                "Pollock"
+            ],
+            "fr": [
+                "Crevettes tempura",
+                "crevettes marinées",
+                "crabe épicé",
+                "goberge"
+            ],
+            "zh": [
+                "天妇罗虾",
+                "腌虾",
+                "辣蟹肉",
+                "鳕鱼"
+            ]
+        }
+    },
+    "P5": {
+        "name": {
+            "en": "Sama Platter",
+            "fr": "Sama",
+            "zh": "大人拼盘"
+        },
+        "price": "$20.00",
+        "image": "P5.png",
+        "ingredients": {
+            "en": [
+                "Spicy salmon",
+                "Marinated salmon",
+                "Spicy tuna",
+                "Marinated tuna"
+            ],
+            "fr": [
+                "Saumon épicé",
+                "saumon mariné",
+                "thon épicé",
+                "thon mariné"
+            ],
+            "zh": [
+                "辣三文鱼",
+                "腌三文鱼",
+                "辣金枪鱼",
+                "腌金枪鱼"
+            ]
+        }
+    },
+    "P6": {
+        "name": {
+            "en": "Supreme Platter (NEW)",
+            "fr": "Supreme (NOUVEAUTÉ)",
+            "zh": "至尊拼盘 (新品)"
+        },
+        "price": "$22.00",
+        "image": "P6.png",
+        "ingredients": {
+            "en": [
+                "Yuzu scallop",
+                "Marinated salmon",
+                "Spicy tuna"
+            ],
+            "fr": [
+                "Pétoncle yuzu",
+                "saumon mariné",
+                "thon épicé"
+            ],
+            "zh": [
+                "柚子扇贝",
+                "腌三文鱼",
+                "辣金枪鱼"
+            ]
+        }
+    },
+    "40": {
+        "name": {
+            "en": "Tokyo",
+            "fr": "Tokyo*",
+            "zh": "东京卷"
+        },
+        "price": "$8.75",
+        "image": "40.png",
+        "ingredients": {
+            "en": [
+                "Shrimp",
+                "Tobiko",
+                "Avocado",
+                "Cucumber",
+                "Tempura",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crevette",
+                "tobiko",
+                "avocat",
+                "concombre",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "虾",
+                "飞鱼籽",
+                "牛油果",
+                "黄瓜",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "41": {
+        "name": {
+            "en": "Osaka",
+            "fr": "Osaka*",
+            "zh": "大阪卷"
+        },
+        "price": "$9.95",
+        "image": "41.png",
+        "ingredients": {
+            "en": [
+                "Shrimp",
+                "Crab",
+                "Tobiko",
+                "Avocado",
+                "Tempura",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crevette",
+                "crabe",
+                "tobiko",
+                "avocat",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "虾",
+                "蟹肉",
+                "飞鱼籽",
+                "牛油果",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "42": {
+        "name": {
+            "en": "Alaska",
+            "fr": "Alaska*",
+            "zh": "阿拉斯加卷"
+        },
+        "price": "$9.75",
+        "image": "42.png",
+        "ingredients": {
+            "en": [
+                "Crab",
+                "Pollock",
+                "Cucumber",
+                "Lettuce",
+                "Light mayonnaise"
+            ],
+            "fr": [
+                "Crabe",
+                "goberge",
+                "concombre",
+                "laitue",
+                "mayonnaise légère"
+            ],
+            "zh": [
+                "蟹肉",
+                "鳕鱼",
+                "黄瓜",
+                "生菜",
+                "轻蛋黄酱"
+            ]
+        }
+    },
+    "45": {
+        "name": {
+            "en": "Cali L.A.",
+            "fr": "Cali L.A.*",
+            "zh": "加州洛杉矶卷"
+        },
+        "price": "$7.75",
+        "image": "45.png",
+        "ingredients": {
+            "en": [
+                "Pollock",
+                "Avocado",
+                "Lettuce",
+                "Light mayonnaise"
+            ],
+            "fr": [
+                "Goberge",
+                "avocat",
+                "laitue",
+                "mayonnaise légère"
+            ],
+            "zh": [
+                "鳕鱼",
+                "牛油果",
+                "生菜",
+                "轻蛋黄酱"
+            ]
+        }
+    },
+    "46": {
+        "name": {
+            "en": "Cobra",
+            "fr": "Cobra**",
+            "zh": "眼镜蛇卷"
+        },
+        "price": "$10.50",
+        "image": "46.png",
+        "ingredients": {
+            "en": [
+                "Grilled eel",
+                "Tobiko",
+                "Cucumber",
+                "Avocado",
+                "Tempura",
+                "Teriyaki sauce"
+            ],
+            "fr": [
+                "Anguille grillée",
+                "tobiko",
+                "concombre",
+                "avocat",
+                "tempura",
+                "sauce Teriyaki"
+            ],
+            "zh": [
+                "烤鳗鱼",
+                "飞鱼籽",
+                "黄瓜",
+                "牛油果",
+                "天妇罗",
+                "照烧酱"
+            ]
+        }
+    },
+    "46a": {
+        "name": {
+            "en": "Philly Chicken",
+            "fr": "Poulet Phily *",
+            "zh": "费城鸡肉卷"
+        },
+        "price": "$8.95",
+        "image": "46a.png",
+        "ingredients": {
+            "en": [
+                "Chicken tempura",
+                "Cream cheese",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Poulet tempura",
+                "fromage à la crème",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "鸡肉天妇罗",
+                "奶油奶酪",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "49": {
+        "name": {
+            "en": "California",
+            "fr": "Californie*",
+            "zh": "加州卷"
+        },
+        "price": "$7.95",
+        "image": "49.png",
+        "ingredients": {
+            "en": [
+                "Pollock",
+                "Tamago",
+                "Masago",
+                "Avocado",
+                "Cucumber",
+                "Light mayonnaise"
+            ],
+            "fr": [
+                "Goberge",
+                "Tamago",
+                "masago",
+                "avocat",
+                "concombres",
+                "mayonnaise légère"
+            ],
+            "zh": [
+                "鳕鱼",
+                "玉子烧",
+                "小鳕鱼籽",
+                "牛油果",
+                "黄瓜",
+                "轻蛋黄酱"
+            ]
+        }
+    },
+    "50": {
+        "name": {
+            "en": "Summer Roll",
+            "fr": "Summer Roll*",
+            "zh": "夏日卷"
+        },
+        "price": "$10.00",
+        "image": "50.png",
+        "ingredients": {
+            "en": [
+                "Smoked salmon",
+                "Shrimp",
+                "Sun-dried tomato",
+                "Oshinko",
+                "Bell pepper",
+                "Cream cheese",
+                "Cucumber",
+                "Tempura",
+                "Lettuce"
+            ],
+            "fr": [
+                "Saumon fumée",
+                "crevette",
+                "tomate sechée",
+                "oshinko",
+                "poivron",
+                "fromage à la crème",
+                "concombre",
+                "tempura",
+                "laitue"
+            ],
+            "zh": [
+                "烟熏三文鱼",
+                "虾",
+                "晒干番茄",
+                "腌萝卜",
+                "甜椒",
+                "奶油奶酪",
+                "黄瓜",
+                "天妇罗",
+                "生菜"
+            ]
+        }
+    },
+    "50a": {
+        "name": {
+            "en": "Winter Roll",
+            "fr": "Winter Roll",
+            "zh": "冬日卷"
+        },
+        "price": "$10.25",
+        "image": "50a.png",
+        "ingredients": {
+            "en": [
+                "Tuna",
+                "Snow crab",
+                "Tobiko",
+                "Avocado",
+                "Cucumber",
+                "Oshinko",
+                "Tempura",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Thon",
+                "crabe des neiges",
+                "tobiko",
+                "avocat",
+                "concombre",
+                "oshinko",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "金枪鱼",
+                "雪蟹",
+                "飞鱼籽",
+                "牛油果",
+                "黄瓜",
+                "腌萝卜",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "54": {
+        "name": {
+            "en": "Montreal",
+            "fr": "Montréal",
+            "zh": "蒙特利尔卷"
+        },
+        "price": "$9.50",
+        "image": "54.png",
+        "ingredients": {
+            "en": [
+                "Salmon",
+                "Shrimp",
+                "Pollock",
+                "Tobiko",
+                "Avocado",
+                "Lettuce",
+                "Tempura",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Saumon",
+                "crevette",
+                "goberge",
+                "tobiko",
+                "avocat",
+                "laitue",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "三文鱼",
+                "虾",
+                "鳕鱼",
+                "飞鱼籽",
+                "牛油果",
+                "生菜",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "55": {
+        "name": {
+            "en": "Chicken Tempura",
+            "fr": "Poulet tempura*",
+            "zh": "鸡肉天妇罗卷"
+        },
+        "price": "$8.50",
+        "image": "55.png",
+        "ingredients": {
+            "en": [
+                "Chicken tempura",
+                "Tobiko",
+                "Oshinko",
+                "Avocado",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Poulet tempura",
+                "tobiko",
+                "oshinko",
+                "avocat",
+                "concombre",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "鸡肉天妇罗",
+                "飞鱼籽",
+                "腌萝卜",
+                "牛油果",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "56": {
+        "name": {
+            "en": "Ebi Tempura",
+            "fr": "Ebi Tempura*",
+            "zh": "虾天妇罗卷"
+        },
+        "price": "$9.50",
+        "image": "56.png",
+        "ingredients": {
+            "en": [
+                "2 Shrimp tempura",
+                "Masago",
+                "Avocado",
+                "Cucumber",
+                "Teriyaki sauce",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "2 Crevettes tempura",
+                "masago",
+                "avocat",
+                "concombre",
+                "sauce Teriyaki",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "2只天妇罗虾",
+                "小鳕鱼籽",
+                "牛油果",
+                "黄瓜",
+                "照烧酱",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "60": {
+        "name": {
+            "en": "Spider Roll",
+            "fr": "Spider*",
+            "zh": "蜘蛛卷"
+        },
+        "price": "$11.00",
+        "image": "60.png",
+        "ingredients": {
+            "en": [
+                "Soft-shell crab",
+                "Masago",
+                "Avocado",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crabe à carapace molle",
+                "masago",
+                "avocat",
+                "concombre",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "软壳蟹",
+                "小鳕鱼籽",
+                "牛油果",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "61": {
+        "name": {
+            "en": "Spicy Crab",
+            "fr": "Crabe épicé*",
+            "zh": "辣蟹卷"
+        },
+        "price": "$9.75",
+        "image": "61.png",
+        "ingredients": {
+            "en": [
+                "Snow crab",
+                "Tobiko",
+                "Tempura",
+                "Avocado",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Crabe des neiges",
+                "tobiko",
+                "tempura",
+                "avocat",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "雪蟹",
+                "飞鱼籽",
+                "天妇罗",
+                "牛油果",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "62": {
+        "name": {
+            "en": "Spicy Scallop",
+            "fr": "Pétoncle épicé",
+            "zh": "辣扇贝卷"
+        },
+        "price": "$10.25",
+        "image": "62.png",
+        "ingredients": {
+            "en": [
+                "Scallop",
+                "Tobiko",
+                "Avocado",
+                "Tempura",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Pétoncle",
+                "tobiko",
+                "avocat",
+                "tempura",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "扇贝",
+                "飞鱼籽",
+                "牛油果",
+                "天妇罗",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "66": {
+        "name": {
+            "en": "Kamikaze",
+            "fr": "Kamikaze",
+            "zh": "神风卷"
+        },
+        "price": "$10.00",
+        "image": "66.png",
+        "ingredients": {
+            "en": [
+                "Tuna",
+                "Pollock",
+                "Tempura",
+                "Avocado",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Thon",
+                "goberge",
+                "tempura",
+                "avocat",
+                "concombre",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "金枪鱼",
+                "鳕鱼",
+                "天妇罗",
+                "牛油果",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "67": {
+        "name": {
+            "en": "Dynamite",
+            "fr": "Dynamite",
+            "zh": "炸弹卷"
+        },
+        "price": "$8.25",
+        "image": "67.png",
+        "ingredients": {
+            "en": [
+                "Tilapia",
+                "Tobiko",
+                "Avocado",
+                "Tempura",
+                "Cucumber",
+                "Spicy mayonnaise"
+            ],
+            "fr": [
+                "Tilapia",
+                "tobiko",
+                "avocat",
+                "tempura",
+                "concombre",
+                "mayonnaise épicée"
+            ],
+            "zh": [
+                "罗非鱼",
+                "飞鱼籽",
+                "牛油果",
+                "天妇罗",
+                "黄瓜",
+                "辣蛋黄酱"
+            ]
+        }
+    },
+    "68": {
+        "name": {
+            "en": "Rainbow",
+            "fr": "Rainbow",
+            "zh": "彩虹卷"
+        },
+        "price": "$10.75",
+        "image": "68.png",
+        "ingredients": {
+            "en": {
+                "exterior": [
+                    "Tuna",
+                    "Smoked salmon",
+                    "Avocado"
+                ],
+                "interior": [
+                    "Salmon",
+                    "Cucumber",
+                    "Tempura",
+                    "Spicy mayonnaise"
+                ]
+            },
+            "fr": {
+                "extérieur": [
+                    "Thon",
+                    "Saumon fumé",
+                    "avocat"
+                ],
+                "intérieur": [
+                    "Saumon",
+                    "concombre",
+                    "tempura",
+                    "mayonnaise épicée"
+                ]
+            },
+            "zh": {
+                "外层": [
+                    "金枪鱼",
+                    "烟熏三文鱼",
+                    "牛油果"
+                ],
+                "内层": [
+                    "三文鱼",
+                    "黄瓜",
+                    "天妇罗",
+                    "辣蛋黄酱"
+                ]
+            }
+        }
+    },
+    "P3": {
+        "name": {
+            "en": "Salmon Platter",
+            "fr": "Saumon",
+            "zh": "三文鱼拼盘"
+        },
+        "price": "$18.00",
+        "image": "P3.png",
+        "ingredients": {
+            "en": [
+                "Spicy salmon and marinated salmon"
+            ],
+            "fr": [
+                "saumon épicé et saumon mariné"
+            ],
+            "zh": [
+                "辣味三文鱼与腌渍三文鱼"
+            ]
+        }
+    },
+    "P4": {
+        "name": {
+            "en": "Tuna Platter",
+            "fr": "Thon",
+            "zh": "金枪鱼拼盘"
+        },
+        "price": "$19.00",
+        "image": "P4.png",
+        "ingredients": {
+            "en": [
+                "Spicy tuna and marinated tuna"
+            ],
+            "fr": [
+                "thon épicé et thon mariné"
+            ],
+            "zh": [
+                "辣味金枪鱼与腌渍金枪鱼"
+            ]
+        }
+    },
+    "P7": {
+        "name": {
+            "en": "Lobster Platter (NEW)",
+            "fr": "Homard (NOUVEAUTÉ)",
+            "zh": "龙虾拼盘 (新品)"
+        },
+        "price": "$22.00",
+        "image": "P7.png",
+        "ingredients": {
+            "en": [
+                "Spicy lobster",
+                "Pollock",
+                "Fried onion"
+            ],
+            "fr": [
+                "homard épicé",
+                "goberge",
+                "oignon frit"
+            ],
+            "zh": [
+                "辣龙虾",
+                "鳕鱼",
+                "炸洋葱"
+            ]
+        }
+    },
+    "P8": {
+        "name": {
+            "en": "Chicken Katsu Platter (NEW)",
+            "fr": "Poulet Katsu (NOUVEAUTÉ)",
+            "zh": "炸鸡排拼盘 (新品)"
+        },
+        "price": "$18.00",
+        "image": "P8.png",
+        "ingredients": {
+            "en": [
+                "Chicken katsu",
+                "Pineapple with General Tao sauce"
+            ],
+            "fr": [
+                "poulet katsu",
+                "ananas et sauce général tao"
+            ],
+            "zh": [
+                "炸鸡排",
+                "菠萝配左宗棠鸡酱"
+            ]
+        }
+    },
+  "C1": {
+    "name": {
+      "en": "Tiger Eyes – 5 pcs",
+      "fr": "Tiger Eyes – 5 mcx",
+      "zh": "虎眼卷 – 5件"
+    },
+    "price": "$10.50",
+    "image": "C1.png",
+    "ingredients": {
+      "en": [
+        "Ext: Smoked salmon",
+        "Int: Tilapia tempura, masago, avocado, lettuce, carrot, spicy mayo",
+        "Sesame sauce"
+      ],
+      "fr": [
+        "Ext : Saumon fumé",
+        "Int : Tilapia tempura, masago, avocat, laitue, carotte, mayonnaise épicée",
+        "Sauce sésame"
+      ],
+      "zh": [
+        "外层：烟熏三文鱼",
+        "内层：天妇罗罗非鱼、马萨哥鱼籽、牛油果、生菜、胡萝卜、辣味蛋黄酱",
+        "芝麻酱"
+      ]
     }
+  },
+  "C2": {
+    "name": {
+      "en": "Dragon Eyes – 6 pcs",
+      "fr": "Dragon Eyes – 6 mcx",
+      "zh": "龙眼卷 – 6件"
+    },
+    "price": "$11.00",
+    "image": "C2.png",
+    "ingredients": {
+      "en": [
+        "Salmon, white tuna, tobiko, carrot",
+        "Sesame sauce"
+      ],
+      "fr": [
+        "Saumon, thon blanc, tobiko, carotte",
+        "Sauce sésame"
+      ],
+      "zh": [
+        "三文鱼、白金枪鱼、飞鱼籽、胡萝卜",
+        "芝麻酱"
+      ]
+    }
+  },
+  "C3": {
+    "name": {
+      "en": "Volcano – 6 pcs",
+      "fr": "Volcano – 6 mcx",
+      "zh": "火山卷 – 6件"
+    },
+    "price": "$11.95",
+    "image": "C3.png",
+    "ingredients": {
+      "en": [
+        "Smoked salmon, fresh salmon, tobiko, cream cheese, avocado",
+        "Spicy mayo"
+      ],
+      "fr": [
+        "Saumon fumé, saumon frais, tobiko, fromage à la crème, avocat",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "烟熏三文鱼、新鲜三文鱼、飞鱼籽、奶油芝士、牛油果",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "C4": {
+    "name": {
+      "en": "La Bombe (Vegan) – 5 pcs (NEW)",
+      "fr": "La bombe (Végé) – 5 mcx (NOUVEAUTÉ)",
+      "zh": "蔬菜炸弹卷 – 5件（新品）"
+    },
+    "price": "$10.75",
+    "image": "C4.png",
+    "ingredients": {
+      "en": [
+        "Enoki, shiitake, avocado, asparagus tempura, fried tofu, truffle oil",
+        "Sesame sauce and soy sauce"
+      ],
+      "fr": [
+        "Enoki, shiitake, avocat, asperge tempura, tofu frit, huile de truffe",
+        "Sauce sésame et sauce soya"
+      ],
+      "zh": [
+        "金针菇、香菇、牛油果、天妇罗芦笋、炸豆腐、松露油",
+        "芝麻酱和酱油"
+      ]
+    }
+  },
+  "C4b": {
+    "name": {
+      "en": "La Bombe Katsu (Vegan) – 5 pcs (NEW)",
+      "fr": "La bombe (Végé) katsu – 5 mcx (NOUVEAUTÉ)",
+      "zh": "蔬菜炸弹卷·炸豆腐版 – 5件（新品）"
+    },
+    "price": "$11.75",
+    "image": "C4b.png",
+    "ingredients": {
+      "en": [
+        "Enoki, shiitake, avocado, asparagus tempura, katsu tofu, truffle oil",
+        "Sesame sauce"
+      ],
+      "fr": [
+        "Enoki, shiitake, avocat, asperge tempura, tofu frit, huile de truffe",
+        "Sauce sésame"
+      ],
+      "zh": [
+        "金针菇、香菇、牛油果、天妇罗芦笋、炸豆腐排、松露油",
+        "芝麻酱"
+      ]
+    }
+  },
+  "C5": {
+    "name": {
+      "en": "Erotica – 6 pcs",
+      "fr": "Erotica – 6 mcx",
+      "zh": "爱之卷 – 6件"
+    },
+    "price": "$14.00",
+    "image": "C5.png",
+    "ingredients": {
+      "en": [
+        "Salmon tartare, tobiko, oshinko",
+        "Served on a breaded shrimp roll",
+        "Spicy mayo and teriyaki"
+      ],
+      "fr": [
+        "Tartare de saumon, tobiko, oshinko",
+        "Servi sur un rouleau pané à la crevette",
+        "Mayo épicée et teriyaki"
+      ],
+      "zh": [
+        "三文鱼鞑靼、飞鱼籽、酱萝卜",
+        "搭配炸虾卷",
+        "辣味蛋黄酱和照烧酱"
+      ]
+    }
+  },
+  "C6": {
+    "name": {
+      "en": "Pizza Sushi – 6 pcs",
+      "fr": "Pizza Sushi – 6 mcx",
+      "zh": "披萨寿司 – 6件"
+    },
+    "price": "$10.95",
+    "image": "C6.png",
+    "ingredients": {
+      "en": [
+        "Smoked salmon, pollock, tobiko on a fried rice patty",
+        "Spicy mayo"
+      ],
+      "fr": [
+        "Saumon fumé, goberge, tobiko sur une galette de riz pannée",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "烟熏三文鱼、仿蟹肉、飞鱼籽搭配炸米饼",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "C6a": {
+    "name": {
+      "en": "Pizza Veggie – 6 pcs",
+      "fr": "Pizza Végé – 6 mcx",
+      "zh": "蔬菜披萨寿司 – 6件"
+    },
+    "price": "$10.75",
+    "image": "C6a.png",
+    "ingredients": {
+      "en": [
+        "Assorted vegetables from Japanese market, fried carrot",
+        "Spicy mayo"
+      ],
+      "fr": [
+        "Variété de légumes du marché japonais, carotte frit",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "日本市场混合蔬菜、炸胡萝卜",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "C6b": {
+    "name": {
+      "en": "Pizza Explosion – 4 pcs (NEW)",
+      "fr": "Pizza explosion – 4 mcx (NOUVEAUTÉ)",
+      "zh": "爆炸披萨寿司 – 4件（新品）"
+    },
+    "price": "$13.75",
+    "image": "C6b.png",
+    "ingredients": {
+      "en": [
+        "Flamed salmon, tartare of tuna and tilapia, tobiko, avocado",
+        "Spicy togarashi mayo, tempura",
+        "Spicy mayo"
+      ],
+      "fr": [
+        "Saumon flambé, tartare de thon et tilapia, tobiko, avocat",
+        "Mayo épicée togarashi, tempura",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "火炙三文鱼、金枪鱼和罗非鱼鞑靼、飞鱼籽、牛油果",
+        "辣味七味粉蛋黄酱、天妇罗",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "C7": {
+    "name": {
+      "en": "Autumn Leaves – 4 pcs",
+      "fr": "Feuilles d’automne – 4 mcx",
+      "zh": "秋叶寿司 – 4件"
+    },
+    "price": "$13.50",
+    "image": "C7.png",
+    "ingredients": {
+      "en": [
+        "Tuna, tobiko, mango, lettuce, cucumber, chef’s sauce",
+        "Served on sweet potato tempura"
+      ],
+      "fr": [
+        "Thon, tobiko, mangue, laitue, concombre, sauce du chef",
+        "Servis sur patate sucrée tempura"
+      ],
+      "zh": [
+        "金枪鱼、飞鱼籽、芒果、生菜、黄瓜、主厨酱",
+        "搭配炸地瓜片"
+      ]
+    }
+  },
+  "C8": {
+    "name": {
+      "en": "Titan – 5 pcs",
+      "fr": "Titan – 5 mcx",
+      "zh": "泰坦卷 – 5件"
+    },
+    "price": "$17.00",
+    "image": "C8.png",
+    "ingredients": {
+      "en": [
+        "Ext: Spicy lobster, tobiko, tempura, sesame sauce, truffle oil, house sauce",
+        "Int: Soft shell crab tempura, avocado, shiitake, asparagus, tobiko, spicy mayo",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext : homard épicé, tobiko, tempura, sauce sésame, huile de truffe, sauce sama",
+        "Int : crabe à carapace molle tempura, avocat, shiitake, asperge, tobiko, mayo épicée",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：辣味龙虾、飞鱼籽、天妇罗、芝麻酱、松露油、特制酱",
+        "内层：软壳蟹天妇罗、牛油果、香菇、芦笋、飞鱼籽、辣味蛋黄酱",
+        "酱油"
+      ]
+    }
+  },
+  "C9": {
+    "name": {
+      "en": "Red Lobster – 5 pcs",
+      "fr": "Red lobster – 5 mcx",
+      "zh": "红龙虾卷 – 5件"
+    },
+    "price": "$12.75",
+    "image": "C9.png",
+    "ingredients": {
+      "en": [
+        "Ext: Pollock, tobiko",
+        "Int: Lobster, cucumber, fried onion, tempura, lettuce",
+        "Spicy mayo"
+      ],
+      "fr": [
+        "Ext : Goberge, tobiko",
+        "Int : homard, concombre, oignon frit, tempura, laitue",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "外层：仿蟹肉、飞鱼籽",
+        "内层：龙虾、黄瓜、炸洋葱、天妇罗、生菜",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "C10": {
+    "name": {
+      "en": "Omega – 3 pcs",
+      "fr": "Omega – 3 mcx",
+      "zh": "欧米茄卷 – 3件"
+    },
+    "price": "$14.50",
+    "image": "C10.png",
+    "ingredients": {
+      "en": [
+        "Tuna, salmon, tobiko, shiitake, asparagus",
+        "Lightly breaded",
+        "Teriyaki sauce"
+      ],
+      "fr": [
+        "Thon, saumon, tobiko, shiitake, asperge",
+        "Le tout légèrement panné",
+        "Sauce teriyaki"
+      ],
+      "zh": [
+        "金枪鱼、三文鱼、飞鱼籽、香菇、芦笋",
+        "轻度裹粉炸制",
+        "照烧酱"
+      ]
+    }
+  },
+  "C11": {
+    "name": {
+      "en": "Seduction – 5 pcs",
+      "fr": "Séduction – 5 mcx",
+      "zh": "诱惑卷 – 5件"
+    },
+    "price": "$14.00",
+    "image": "C11.png",
+    "ingredients": {
+      "en": [
+        "Spicy salmon, tobiko, tomato",
+        "Served on shrimp tempura roll with asparagus",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Saumon épicé, tobiko et tomate",
+        "Servie sur un rouleau de crevette tempura et asperge",
+        "Sauce soya"
+      ],
+      "zh": [
+        "辣味三文鱼、飞鱼籽、西红柿",
+        "搭配炸虾卷和芦笋",
+        "酱油"
+      ]
+    }
+  },
+  "C12": {
+    "name": {
+      "en": "Le Nirvana – 5 pcs",
+      "fr": "Le Nirvana – 5 mcx",
+      "zh": "极乐寿司 – 5件"
+    },
+    "price": "$12.95",
+    "image": "C12.png",
+    "ingredients": {
+      "en": [
+        "Salmon and tuna sashimi, crab stick, tempura, tobiko, fried onion",
+        "Spicy mayo and teriyaki"
+      ],
+      "fr": [
+        "Saumon et thon sashimi, crabe, tempura, tobiko, oignon frit",
+        "Mayo épicée et teriyaki"
+      ],
+      "zh": [
+        "三文鱼和金枪鱼刺身、蟹棒、天妇罗、飞鱼籽、炸洋葱",
+        "辣味蛋黄酱和照烧酱"
+      ]
+    }
+  },
+  "C13": {
+    "name": {
+      "en": "Anaconda – 5 pcs",
+      "fr": "Anaconda – 5 mcx",
+      "zh": "蟒蛇卷 – 5件"
+    },
+    "price": "$12.00",
+    "image": "C13.png",
+    "ingredients": {
+      "en": [
+        "Ext: Avocado",
+        "Int: Eel, grilled salmon, tempura, tobiko, lettuce, cucumber, tamago",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Avocat",
+        "Int: Anguille, saumon grillé, tempura, tobiko, laitue, concombre, tamago",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：牛油果",
+        "内层：鳗鱼、烤三文鱼、天妇罗、飞鱼籽、生菜、黄瓜、玉子烧",
+        "酱油"
+      ]
+    }
+  },
+  "C16": {
+    "name": {
+      "en": "Mufasa – 5 pcs (NEW)",
+      "fr": "Mufasa – 5 mcx (NOUVEAUTÉ)",
+      "zh": "木法沙卷 – 5件 (新品)"
+    },
+    "price": "$12.95",
+    "image": "C16.png",
+    "ingredients": {
+      "en": [
+        "Ext: Salmon, sesame sauce, fried sama and carrot",
+        "Int: Lobster, avocado, tobiko, tempura",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Saumon, sauce sésame, sauce sama et carotte frit",
+        "Int: Homard, avocat, tobiko et tempura",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：三文鱼、芝麻酱、炸sama和胡萝卜",
+        "内层：龙虾、牛油果、飞鱼籽、天妇罗",
+        "酱油"
+      ]
+    }
+  },
+  "C19": {
+    "name": {
+      "en": "Le Démon – 5 pcs",
+      "fr": "Le Démon – 5 mcx",
+      "zh": "恶魔卷 – 5件"
+    },
+    "price": "$13.50",
+    "image": "C19.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed salmon, spicy crab, Sriracha",
+        "Int: Shrimp, tobiko, avocado, tempura, sesame oil, fried onion",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Saumon flambé, crabe épicé, Sriracha",
+        "Int: Crevettes, tobiko, avocat, tempura, huile de sésame, oignon frit",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：炙烧三文鱼、辣味蟹肉、是拉差辣酱",
+        "内层：虾、飞鱼籽、牛油果、天妇罗、芝麻油、炸洋葱",
+        "酱油"
+      ]
+    }
+  },
+  "C17": {
+    "name": {
+      "en": "Yakuza – 5 pcs",
+      "fr": "Yakuza – 5 mcx",
+      "zh": "黑帮卷 – 5件"
+    },
+    "price": "$12.75",
+    "image": "C17.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed salmon, black tobiko, teriyaki sauce",
+        "Int: Tuna tartare, shrimp tempura, shiitake, tempura, lettuce",
+        "Spicy mayo and teriyaki sauce"
+      ],
+      "fr": [
+        "Ext: Saumon flambé, tobiko noir, sauce Teriyaki",
+        "Int: Tartare de thon, crevette tempura, shiitake, tempura, laitue",
+        "Mayo épicé et sauce teriyaki"
+      ],
+      "zh": [
+        "外层：炙烧三文鱼、黑飞鱼籽、照烧酱",
+        "内层：金枪鱼鞑靼、炸虾天妇罗、香菇、天妇罗、生菜",
+        "辣味蛋黄酱和照烧酱"
+      ]
+    }
+  },
+  "C20": {
+    "name": {
+      "en": "Les Champions – 8 pcs (NEW)",
+      "fr": "Les Champions – 8 mcx (NOUVEAUTÉ)",
+      "zh": "冠军卷 – 8件 (新品)"
+    },
+    "price": "$13.50",
+    "image": "C20.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed tuna, truffle oil, yuzu, sama sauce, rice pearl",
+        "Int: Spicy tuna tartare, tobiko, avocado, shiitake, enoki, tempura",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Thon flambé, huile de truffle, yuzu, sauce sama et perle de riz",
+        "Int: Tartare de thon épicé, tobiko, avocat, shiitake, enoki et tempura",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：炙烧金枪鱼、松露油、柚子、sama酱、米珍珠",
+        "内层：辣味金枪鱼鞑靼、飞鱼籽、牛油果、香菇、金针菇、天妇罗",
+        "酱油"
+      ]
+    }
+  },
+  "C15": {
+    "name": {
+      "en": "Tentation – 5 pcs",
+      "fr": "Tentation – 5 mcx",
+      "zh": "诱惑卷 – 5件"
+    },
+    "price": "$12.50",
+    "image": "C15.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed tuna, avocado",
+        "Int: Spicy tuna tartare, tobiko, mango, sweet potato, lettuce, honey, spicy mayo",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Thon flambé et avocat",
+        "Int: Tartare de thon épicé, tobiko, mangue, patate douce, laitue, miel et mayo épicé",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：炙烧金枪鱼、牛油果",
+        "内层：辣味金枪鱼鞑靼、飞鱼籽、芒果、红薯、生菜、蜂蜜、辣味蛋黄酱",
+        "酱油"
+      ]
+    }
+  },
+  "C18": {
+    "name": {
+      "en": "3 Kingdoms – 3 pcs",
+      "fr": "3 Kingdoms – 3 mcx",
+      "zh": "三国卷 – 3件"
+    },
+    "price": "$13.00",
+    "image": "C18.png",
+    "ingredients": {
+      "en": [
+        "A mix of crab meat, masago, fried carrot, avocado, mango, spicy mayo",
+        "Served with fried shrimp sheet and flamed sashimi (salmon, scallop, tuna) and tobiko on top",
+        "Served with chef's sauce"
+      ],
+      "fr": [
+        "Un mélange de chair de crabe, masago, carotte frit, avocat mangue et mayo épicé",
+        "Servie une feuille de crevettes frites et avec des sashimis flambés (saumon, pétoncle, thon) et tobiko par dessue le tout",
+        "Servie avec sauce du chef"
+      ],
+      "zh": [
+        "混合蟹肉、蟹籽、炸胡萝卜、牛油果、芒果、辣味蛋黄酱",
+        "搭配炸虾片和炙烧刺身（三文鱼、扇贝、金枪鱼）以及飞鱼籽覆盖其上",
+        "搭配主厨特制酱汁"
+      ]
+    }
+  },
+  "C21": {
+    "name": {
+      "en": "Le Joker – 6 pcs (NEW)",
+      "fr": "Le Joker – 6 mcx (NOUVEAUTÉ)",
+      "zh": "小丑卷 – 6件 (新品)"
+    },
+    "price": "$12.50",
+    "image": "C21.png",
+    "ingredients": {
+      "en": [
+        "Mix of spicy salmon and tuna tartare, tobiko, avocado, tomato",
+        "On crispy rice roll with jalapeno",
+        "Sesame sauce and sama sauce for finishing (Soy sauce)"
+      ],
+      "fr": [
+        "Mélange de tartare de saumon et thon épicé, tobiko, avocat, tomate",
+        "Sur Rouleau de riz croustillant et jalapeno",
+        "Sauce sésame et sauce sama pour finission (Sauce soya)"
+      ],
+      "zh": [
+        "混合辣味三文鱼和金枪鱼鞑靼、飞鱼籽、牛油果、番茄",
+        "搭配脆米卷和墨西哥辣椒",
+        "芝麻酱和sama酱收尾（酱油）"
+      ]
+    }
+  },
+  "X1": {
+    "name": {
+      "en": "Harmonie – 5 pcs",
+      "fr": "Harmonie – 5 mcx",
+      "zh": "和谐卷 – 5件"
+    },
+    "price": "$12.00",
+    "image": "X1.png",
+    "ingredients": {
+      "en": [
+        "Tuna tartare, shrimp tempura, crab meat, tobiko, cucumber, fried onion, spicy mayonnaise",
+        "Sesame and teriyaki sauce"
+      ],
+      "fr": [
+        "Tartare de thon, crevette tempura, chair de crabe, tobiko, concombre, oignon frit, mayonnaise épicée",
+        "Sauce sésame et teriyaki"
+      ],
+      "zh": [
+        "金枪鱼鞑靼、炸虾天妇罗、蟹肉、飞鱼籽、黄瓜、炸洋葱、辣味蛋黄酱",
+        "芝麻酱和照烧酱"
+      ]
+    }
+  },
+  "X2": {
+    "name": {
+      "en": "Océanie – 5 pcs",
+      "fr": "Océanie – 5 mcx",
+      "zh": "大洋卷 – 5件"
+    },
+    "price": "$12.95",
+    "image": "X2.png",
+    "ingredients": {
+      "en": [
+        "Scallop, crab, tobiko, avocado, mango, sweet potato tempura, spicy mayonnaise",
+        "Sesame and dill sauce"
+      ],
+      "fr": [
+        "Pétoncle, crabe, tobiko, avocat, manque, patate sucrée tempura, mayonnaise épicée",
+        "Sauce sésame et aneth"
+      ],
+      "zh": [
+        "扇贝、蟹肉、飞鱼籽、牛油果、芒果、红薯天妇罗、辣味蛋黄酱",
+        "芝麻酱和莳萝酱"
+      ]
+    }
+  },
+  "X3": {
+    "name": {
+      "en": "Fantaisie – 5 pcs",
+      "fr": "Fantaisie – 5 mcx",
+      "zh": "幻想卷 – 5件"
+    },
+    "price": "$11.95",
+    "image": "X3.png",
+    "ingredients": {
+      "en": [
+        "Ext: Salmon sashimi",
+        "Int: Pollock, tobiko, avocado, mango, fried carrot, tempura",
+        "Spicy mayonnaise"
+      ],
+      "fr": [
+        "Ext: Saumon sashimi",
+        "Int: Goberge, tobiko, avocat, manque, carotte frite, tempura",
+        "Mayo épicée"
+      ],
+      "zh": [
+        "外层：三文鱼刺身",
+        "内层：仿蟹肉、飞鱼籽、牛油果、芒果、炸胡萝卜、天妇罗",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "X4": {
+    "name": {
+      "en": "Héritage – 8 pcs",
+      "fr": "Héritage – 8 mcx",
+      "zh": "传承卷 – 8件"
+    },
+    "price": "$14.00",
+    "image": "X4.png",
+    "ingredients": {
+      "en": [
+        "Ext: White tuna sashimi and strawberry",
+        "Int: 2 shrimp tempura, tobiko, pineapple, avocado, fried onion, spicy mayonnaise",
+        "Sesame and dill sauce"
+      ],
+      "fr": [
+        "Ext: Thon blanc sashimi et fraise",
+        "Int: 2 crevettes tempura, tobiko, ananas, avocat, oignon frit, mayonnaise épicée",
+        "Sauce sésame et aneth"
+      ],
+      "zh": [
+        "外层：白金枪鱼刺身和草莓",
+        "内层：2只炸虾天妇罗、飞鱼籽、菠萝、牛油果、炸洋葱、辣味蛋黄酱",
+        "芝麻酱和莳萝酱"
+      ]
+    }
+  },
+  "X5": {
+    "name": {
+      "en": "Ruby Rouge – 8 pcs",
+      "fr": "Ruby Rouge – 8 mcx",
+      "zh": "红宝石卷 – 8件"
+    },
+    "price": "$14.00",
+    "image": "X5.png",
+    "ingredients": {
+      "en": [
+        "Ext: Tuna sashimi",
+        "Int: Pollock, tobiko, fried onion, avocado, mango, tempura, spicy mayonnaise",
+        "Sesame and dill sauce"
+      ],
+      "fr": [
+        "Ext: Thon sashimi",
+        "Int: Goberge, tobiko, oignon frit, avocat, manque, tempura, mayonnaise épicée",
+        "Sauce sésame et aneth"
+      ],
+      "zh": [
+        "外层：金枪鱼刺身",
+        "内层：仿蟹肉、飞鱼籽、炸洋葱、牛油果、芒果、天妇罗、辣味蛋黄酱",
+        "芝麻酱和莳萝酱"
+      ]
+    }
+  },
+  "X6": {
+    "name": {
+      "en": "Bamboo – 5 pcs (Vegetarian)",
+      "fr": "Bamboo – 5 mcx (Végé)",
+      "zh": "竹卷 – 5件 (素食)"
+    },
+    "price": "$10.95",
+    "image": "X6.png",
+    "ingredients": {
+      "en": [
+        "Asparagus, sweet potato tempura, avocado, fried carrot, shiitake or mango",
+        "Sesame and teriyaki sauce"
+      ],
+      "fr": [
+        "Asperge, patate sucrée tempura, avocat, carotte frite, shiitake ou manque",
+        "Sauce sésame et teriyaki"
+      ],
+      "zh": [
+        "芦笋、红薯天妇罗、牛油果、炸胡萝卜、香菇或芒果",
+        "芝麻酱和照烧酱"
+      ]
+    }
+  },
+  "X7": {
+    "name": {
+      "en": "Crabe Royale – 5 pcs",
+      "fr": "Crabe Royale – 5 mcx",
+      "zh": "皇家蟹卷 – 5件"
+    },
+    "price": "$11.00",
+    "image": "X7.png",
+    "ingredients": {
+      "en": [
+        "Crab meat, shrimp tempura, tobiko, avocado, fried onion, spicy mayonnaise, cucumber",
+        "Sesame and teriyaki sauce"
+      ],
+      "fr": [
+        "Chair de crabe, crevette tempura, tobiko, avocat, oignon frit, mayonnaise épicée, concombre",
+        "Sauce sésame et teriyaki"
+      ],
+      "zh": [
+        "蟹肉、炸虾天妇罗、飞鱼籽、牛油果、炸洋葱、辣味蛋黄酱、黄瓜",
+        "芝麻酱和照烧酱"
+      ]
+    }
+  },
+  "X8": {
+    "name": {
+      "en": "Aqua – 5 pcs",
+      "fr": "Aqua – 5 mcx",
+      "zh": "水韵卷 – 5件"
+    },
+    "price": "$13.00",
+    "image": "X8.png",
+    "ingredients": {
+      "en": [
+        "Ext: Salmon sashimi",
+        "Int: Breaded scallop, tobiko, asparagus, avocado, lettuce, spicy mayonnaise",
+        "Sesame and dill sauce"
+      ],
+      "fr": [
+        "Ext: Saumon sashimi",
+        "Int: Pétoncle panné, tobiko, asperge, avocat, laitue, mayonnaise épicée",
+        "Sauce sésame et aneth"
+      ],
+      "zh": [
+        "外层：三文鱼刺身",
+        "内层：面包屑扇贝、飞鱼籽、芦笋、牛油果、生菜、辣味蛋黄酱",
+        "芝麻酱和莳萝酱"
+      ]
+    }
+  },
+  "X9": {
+    "name": {
+      "en": "Katana – 8 pcs",
+      "fr": "Katana – 8 mcx",
+      "zh": "武士刀卷 – 8件"
+    },
+    "price": "$13.00",
+    "image": "X9.png",
+    "ingredients": {
+      "en": [
+        "Salmon, 2 shrimp tempura, masago, avocado, fried onion, spicy mayonnaise",
+        "Sesame and dill sauce"
+      ],
+      "fr": [
+        "Saumon, 2 crevettes tempura, masago, avocat, oignon frit, mayonnaise épicée",
+        "Sauce sésame et aneth"
+      ],
+      "zh": [
+        "三文鱼、2只炸虾天妇罗、蟹籽、牛油果、炸洋葱、辣味蛋黄酱",
+        "芝麻酱和莳萝酱"
+      ]
+    }
+  },
+  "X10": {
+    "name": {
+      "en": "Empereur – 5 pcs",
+      "fr": "Empereur – 5 mcx",
+      "zh": "帝王卷 – 5件"
+    },
+    "price": "$14.00",
+    "image": "X10.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed salmon and tuna",
+        "Int: Eel, shrimp tempura, tobiko, mango, oshinko, lettuce, tempura",
+        "Sesame and teriyaki sauce"
+      ],
+      "fr": [
+        "Ext: Saumon et thon flambés",
+        "Int: Anguille, crevette tempura, tobiko, manque, oshinko, laitue, tempura",
+        "Sauce sésame et teriyaki"
+      ],
+      "zh": [
+        "外层：炙烧三文鱼和金枪鱼",
+        "内层：鳗鱼、炸虾天妇罗、飞鱼籽、芒果、腌萝卜、生菜、天妇罗",
+        "芝麻酱和照烧酱"
+      ]
+    }
+  },
+  "X11": {
+    "name": {
+      "en": "Jade – 8 pcs",
+      "fr": "Jade – 8 mcx",
+      "zh": "翡翠卷 – 8件"
+    },
+    "price": "$14.00",
+    "image": "X11.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed salmon, green tobiko",
+        "Int: 2 shrimp, tempura, asparagus, avocado, cucumber, lettuce, fried onion",
+        "Sesame and teriyaki sauce"
+      ],
+      "fr": [
+        "Ext: Saumon flambé, tobiko vert",
+        "Int: 2 crevettes, tempura, asperge, avocat concombre, laitue, oignon frit",
+        "Sauce sésame et teriyaki"
+      ],
+      "zh": [
+        "外层：炙烧三文鱼、绿飞鱼籽",
+        "内层：2只虾、天妇罗、芦笋、牛油果、黄瓜、生菜、炸洋葱",
+        "芝麻酱和照烧酱"
+      ]
+    }
+  },
+  "X12": {
+    "name": {
+      "en": "Homard suprême – 5 pcs",
+      "fr": "Homard suprême – 5 mcx",
+      "zh": "至尊龙虾卷 – 5件"
+    },
+    "price": "$12.95",
+    "image": "X12.png",
+    "ingredients": {
+      "en": [
+        "Lobster, mozzarella, tobiko, avocado, cucumber, tempura",
+        "Spicy mayonnaise"
+      ],
+      "fr": [
+        "Homard, mozzarella, tobiko, avocat, concombre, tempura",
+        "Mayo épicé"
+      ],
+      "zh": [
+        "龙虾、马苏里拉奶酪、飞鱼籽、牛油果、黄瓜、天妇罗",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "X13": {
+    "name": {
+      "en": "Végé Impérial – 8 pcs (Vegetarian)",
+      "fr": "Végé Impérial – 8 mcx (Végé)",
+      "zh": "皇家素食卷 – 8件 (素食)"
+    },
+    "price": "$11.75",
+    "image": "X13.png",
+    "ingredients": {
+      "en": [
+        "Ext: Avocado",
+        "Int: Haru maki, carrot, inari",
+        "Spicy mayonnaise"
+      ],
+      "fr": [
+        "Ext: Avocat",
+        "Int: Haru maki, carrotte, inari",
+        "Mayo épicé"
+      ],
+      "zh": [
+        "外层：牛油果",
+        "内层：春卷、胡萝卜、油豆腐",
+        "辣味蛋黄酱"
+      ]
+    }
+  },
+  "X14": {
+    "name": {
+      "en": "4 Saisons – 8 pcs",
+      "fr": "4 Saisons – 8 mcx",
+      "zh": "四季卷 – 8件"
+    },
+    "price": "$13.50",
+    "image": "X14.png",
+    "ingredients": {
+      "en": [
+        "Ext: Tuna, salmon, white tuna, tilapia, sesame oil, steak spice",
+        "Int: Shrimp, tobiko, cucumber, tempura, spicy mayonnaise",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Thon, saumon, thon blanc, tilapia huile de sésame, épice à steak",
+        "Int: Crevettes, tobiko, concombre et tempura, mayo épicé",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：金枪鱼、三文鱼、白金枪鱼、罗非鱼、芝麻油、牛排香料",
+        "内层：虾、飞鱼籽、黄瓜、天妇罗、辣味蛋黄酱",
+        "酱油"
+      ]
+    }
+  },
+  "X15": {
+    "name": {
+      "en": "Atlantis – 8 pcs (NEW)",
+      "fr": "Atlantis – 8 mcx (NOUVEAUTÉ)",
+      "zh": "亚特兰蒂斯卷 – 8件 (新品)"
+    },
+    "price": "$14.50",
+    "image": "X15.png",
+    "ingredients": {
+      "en": [
+        "Ext: Scallops, rice pearl, yuzu",
+        "Int: Spicy salmon tartare, green tobiko, tobiko, avocado, tempura",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Pétoncles, perle de riz et yuzu",
+        "Int: Tartare saumon épicé, tobiko vert, tobiko, avocat, tempura",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：扇贝、米珍珠、柚子",
+        "内层：辣味三文鱼鞑靼、绿飞鱼籽、飞鱼籽、牛油果、天妇罗",
+        "酱油"
+      ]
+    }
+  },
+  "X16": {
+    "name": {
+      "en": "Shinobi – 8 pcs (NEW)",
+      "fr": "Shinobi – 8 mcx (NOUVEAUTÉ)",
+      "zh": "忍者卷 – 8件 (新品)"
+    },
+    "price": "$14.50",
+    "image": "X16.png",
+    "ingredients": {
+      "en": [
+        "Ext: Flamed spicy salmon, truffle oil, sama sauce",
+        "Int: Avocado, tobiko, cucumber, tempura, fried onion, spicy mayonnaise",
+        "Soy sauce"
+      ],
+      "fr": [
+        "Ext: Saumon épicé flambé, huile de truffle et sauce sama",
+        "Int: Avocat, tobiko, concombre, tempura, onion frit et mayo épicé",
+        "Sauce soya"
+      ],
+      "zh": [
+        "外层：炙烧辣味三文鱼、松露油、sama酱",
+        "内层：牛油果、飞鱼籽、黄瓜、天妇罗、炸洋葱、辣味蛋黄酱",
+        "酱油"
+      ]
+    }
+  },
+  "69": {
+    "name": {
+      "en": "Tartare Roll with Shrimp – 6 pcs",
+      "fr": "Maki de Tartare aux Crevettes – 6 mcx",
+      "zh": "鞑靼虾卷 – 6件"
+    },
+    "price": "$9.00",
+    "image": "69.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Shrimp tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de crevettes"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼虾"
+      ]
+    }
+  },
+  "70": {
+    "name": {
+      "en": "Tartare Roll with Crab – 6 pcs",
+      "fr": "Maki de Tartare au Crabe – 6 mcx",
+      "zh": "鞑靼蟹卷 – 6件"
+    },
+    "price": "$10.00",
+    "image": "70.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Crab tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de crabe"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼蟹"
+      ]
+    }
+  },
+  "70a": {
+    "name": {
+      "en": "Tartare Roll with Octopus – 6 pcs",
+      "fr": "Maki de Tartare au Tako – 6 mcx",
+      "zh": "鞑靼章鱼卷 – 6件"
+    },
+    "price": "$9.50",
+    "image": "70a.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Octopus tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de tako"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼章鱼"
+      ]
+    }
+  },
+  "71": {
+    "name": {
+      "en": "Tartare Roll with Salmon – 6 pcs",
+      "fr": "Maki de Tartare au Saumon – 6 mcx",
+      "zh": "鞑靼三文鱼卷 – 6件"
+    },
+    "price": "$10.00",
+    "image": "71.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Salmon tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de saumon"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼三文鱼"
+      ]
+    }
+  },
+  "72": {
+    "name": {
+      "en": "Tartare Roll with Tuna – 6 pcs",
+      "fr": "Maki de Tartare au Thon – 6 mcx",
+      "zh": "鞑靼金枪鱼卷 – 6件"
+    },
+    "price": "$10.25",
+    "image": "72.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Tuna tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de thon"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼金枪鱼"
+      ]
+    }
+  },
+  "73": {
+    "name": {
+      "en": "Tartare Roll with Scallops – 6 pcs",
+      "fr": "Maki de Tartare aux Pétoncles – 6 mcx",
+      "zh": "鞑靼扇贝卷 – 6件"
+    },
+    "price": "$10.50",
+    "image": "73.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Scallop tartare"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Tartare de pétoncles"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "鞑靼扇贝"
+      ]
+    }
+  },
+  "74": {
+    "name": {
+      "en": "Tartare Sama Roll – 8 pcs",
+      "fr": "Tartare Sama – 8 mcx",
+      "zh": "鞑靼Sama卷 – 8件"
+    },
+    "price": "$11.50",
+    "image": "74.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Tuna, salmon, mango, strawberry"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Thon, saumon, mangue, fraise"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "金枪鱼、三文鱼、芒果、草莓"
+      ]
+    }
+  },
+  "74a": {
+    "name": {
+      "en": "Vegetarian Tartare Roll – 6 pcs",
+      "fr": "Tartare Végé – 6 mcx",
+      "zh": "素食鞑靼卷 – 6件"
+    },
+    "price": "$9.25",
+    "image": "74a.png",
+    "ingredients": {
+      "en": [
+        "Rice roll with rice paper, avocado and tempura",
+        "Edamame and inari"
+      ],
+      "fr": [
+        "Rouleau avec feuilles de riz, avocat et tempura",
+        "Edamame et inari"
+      ],
+      "zh": [
+        "米卷配米纸、牛油果和天妇罗",
+        "毛豆和稻荷"
+      ]
+    }
+  },
+  "75": {
+    "name": {
+      "en": "Vegetarian Ichiban Roll – 2 pcs",
+      "fr": "Maki Ichiban Végétarien – 2 mcx",
+      "zh": "蔬菜一番卷 – 2件"
+    },
+    "price": "$6.25",
+    "image": "75.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Lettuce, carrot, cucumber, avocado, red pepper, tamago, sesame, Japanese rice"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Laitue, carotte, concombre, avocat, poivron rouge, tamago, sésame, riz japonais"
+      ],
+      "zh": [
+        "春卷",
+        "生菜、胡萝卜、黄瓜、牛油果、红椒、玉子烧、芝麻、日本米"
+      ]
+    }
+  },
+  "76": {
+    "name": {
+      "en": "Shrimp Ichiban Roll – 2 pcs",
+      "fr": "Maki Ichiban aux Crevettes – 2 mcx",
+      "zh": "虾一番卷 – 2件"
+    },
+    "price": "$7.00",
+    "image": "76.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Shrimp, pollock, lettuce, carrot, cucumber, sesame, Japanese rice"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Crevette, goberge, laitue, carotte, concombre, sésame, riz japonais"
+      ],
+      "zh": [
+        "春卷",
+        "虾、鳕鱼、生菜、胡萝卜、黄瓜、芝麻、日本米"
+      ]
+    }
+  },
+  "77": {
+    "name": {
+      "en": "Snow Crab Ichiban Roll – 2 pcs",
+      "fr": "Maki Ichiban au Crabe – 2 mcx",
+      "zh": "雪蟹一番卷 – 2件"
+    },
+    "price": "$8.00",
+    "image": "77.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Snow crab, pollock, cucumber, avocado, carrot, Japanese rice, spicy mayonnaise"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Crabe des neiges, goberge, concombre, avocat, carotte, riz japonais mayonnaise épicée"
+      ],
+      "zh": [
+        "春卷",
+        "雪蟹、鳕鱼、黄瓜、牛油果、胡萝卜、日本米、辣味蛋黄酱"
+      ]
+    }
+  },
+  "78": {
+    "name": {
+      "en": "Salmon Ichiban Roll – 2 pcs",
+      "fr": "Maki Ichiban au Saumon – 2 mcx",
+      "zh": "三文鱼一番卷 – 2件"
+    },
+    "price": "$8.00",
+    "image": "78.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Salmon, pollock, tamago, red pepper, cucumber, lettuce, Japanese rice"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Saumon, goberge, tamago, poivron rouge, concombre, laitue, riz japonais"
+      ],
+      "zh": [
+        "春卷",
+        "三文鱼、鳕鱼、玉子烧、红椒、黄瓜、生菜、日本米"
+      ]
+    }
+  },
+  "79": {
+    "name": {
+      "en": "Tuna Ichiban Roll – 2 pcs",
+      "fr": "Maki Ichiban au Thon – 2 mcx",
+      "zh": "金枪鱼一番卷 – 2件"
+    },
+    "price": "$8.50",
+    "image": "79.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Tuna, pollock, tamago, red pepper, cucumber, lettuce, Japanese rice"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Thon, goberge, tamago, poivron rouge, concombre, laitue, riz japonais"
+      ],
+      "zh": [
+        "春卷",
+        "金枪鱼、鳕鱼、玉子烧、红椒、黄瓜、生菜、日本米"
+      ]
+    }
+  },
+  "79a": {
+    "name": {
+      "en": "Chicken Tempura Ichiban Roll – 2 pcs (NEW)",
+      "fr": "Maki Ichiban au Poulet – 2 mcx (NOUVEAUTÉ)",
+      "zh": "炸鸡天妇罗一番卷 – 2件 (新品)"
+    },
+    "price": "$7.50",
+    "image": "79a.png",
+    "ingredients": {
+      "en": [
+        "Spring rolls",
+        "Chicken tempura, avocado, cucumber, oshinko, carrot"
+      ],
+      "fr": [
+        "Rouleaux printemps",
+        "Poulet tempura, avocat, concombre, oshinko, carotte"
+      ],
+      "zh": [
+        "春卷",
+        "炸鸡天妇罗、牛油果、黄瓜、腌萝卜、胡萝卜"
+      ]
+    }
+  },
+  "80": {
+    "name": {
+      "en": "Miso Soup (Vegetarian)",
+      "fr": "Miso (Végé)",
+      "zh": "味噌汤 (素食)"
+    },
+    "price": "$4.00",
+    "image": "80.png",
+    "ingredients": {
+      "en": [
+        "Tofu, carrot, shallot"
+      ],
+      "fr": [
+        "Tofu, carotte, échalotte"
+      ],
+      "zh": [
+        "豆腐、胡萝卜、青葱"
+      ]
+    }
+  },
+  "81": {
+    "name": {
+      "en": "Shrimp Miso Soup",
+      "fr": "Miso Crevettes",
+      "zh": "虾味噌汤"
+    },
+    "price": "$5.00",
+    "image": "81.png",
+    "ingredients": {
+      "en": [
+        "Vegetarian miso soup base",
+        "Shrimp"
+      ],
+      "fr": [
+        "Soupe miso végé",
+        "Crevettes"
+      ],
+      "zh": [
+        "素食味噌汤底",
+        "虾"
+      ]
+    }
+  },
+  "82": {
+    "name": {
+      "en": "Crab Miso Soup",
+      "fr": "Miso Crabe",
+      "zh": "蟹味噌汤"
+    },
+    "price": "$5.50",
+    "image": "82.png",
+    "ingredients": {
+      "en": [
+        "Vegetarian miso soup base",
+        "Snow crab, pollock"
+      ],
+      "fr": [
+        "Soupe miso végé",
+        "Crabe des neiges, goberge"
+      ],
+      "zh": [
+        "素食味噌汤底",
+        "雪蟹、鳕鱼"
+      ]
+    }
+  },
+  "83": {
+    "name": {
+      "en": "Mixed Seafood Miso Soup",
+      "fr": "Miso Mixte",
+      "zh": "海鲜杂烩味噌汤"
+    },
+    "price": "$6.00",
+    "image": "83.png",
+    "ingredients": {
+      "en": [
+        "Vegetarian miso soup base",
+        "Salmon, shrimp, crab, pollock"
+      ],
+      "fr": [
+        "Soupe miso végé",
+        "Saumon, crevettes, crabe, goberge"
+      ],
+      "zh": [
+        "素食味噌汤底",
+        "三文鱼、虾、蟹、鳕鱼"
+      ]
+    }
+  },
+  "83b": {
+    "name": {
+      "en": "Haru Maki – 3 pcs (Vegetarian)",
+      "fr": "Haru makis – 3 mcx (Végé)",
+      "zh": "春卷 – 3件 (素食)"
+    },
+    "price": "$4.40",
+    "image": "83b.png",
+    "ingredients": {
+      "en": [
+        "Fried spring rolls"
+      ],
+      "fr": [
+        "Rouleaux impériaux frits"
+      ],
+      "zh": [
+        "炸春卷"
+      ]
+    }
+  },
+  "84": {
+    "name": {
+      "en": "Green Salad (Vegetarian)",
+      "fr": "Salade Verte (Végé)",
+      "zh": "绿色沙拉 (素食)"
+    },
+    "price": "$6.50",
+    "image": "84.png",
+    "ingredients": {
+      "en": [],
+      "fr": [],
+      "zh": []
+    }
+  },
+  "84a": {
+    "name": {
+      "en": "Fried Shrimp – 2 pcs",
+      "fr": "Crevettes frites – 2 mcx",
+      "zh": "炸虾 – 2件"
+    },
+    "price": "$4.95",
+    "image": "84a.png",
+    "ingredients": {
+      "en": [
+        "Giant tempura shrimp"
+      ],
+      "fr": [
+        "Crevettes géantes tempura"
+      ],
+      "zh": [
+        "巨型天妇罗虾"
+      ]
+    }
+  },
+  "84b": {
+    "name": {
+      "en": "Sweet Potato Fries (Vegetarian)",
+      "fr": "Frite de patate douce (Végé)",
+      "zh": "红薯条 (素食)"
+    },
+    "price": "$5.50",
+    "image": "84b.png",
+    "ingredients": {
+      "en": [],
+      "fr": [],
+      "zh": []
+    }
+  },
+  "85": {
+    "name": {
+      "en": "Wakame Salad (Vegetarian)",
+      "fr": "Salade Wakamé (Végé)",
+      "zh": "海藻沙拉 (素食)"
+    },
+    "price": "$5.50",
+    "image": "85.png",
+    "ingredients": {
+      "en": [
+        "Marinated seaweed"
+      ],
+      "fr": [
+        "Alques de mer marinées"
+      ],
+      "zh": [
+        "腌海藻"
+      ]
+    }
+  },
+  "86": {
+    "name": {
+      "en": "Seafood Salad",
+      "fr": "Salade fruit de mer",
+      "zh": "海鲜沙拉"
+    },
+    "price": "$14.00",
+    "image": "86.png",
+    "ingredients": {
+      "en": [],
+      "fr": [],
+      "zh": []
+    }
+  },
+  "86a": {
+    "name": {
+      "en": "Edamame (Vegetarian)",
+      "fr": "Edamame (Végé)",
+      "zh": "毛豆 (素食)"
+    },
+    "price": "$4.50",
+    "image": "86a.png",
+    "ingredients": {
+      "en": [],
+      "fr": [],
+      "zh": []
+    }
+  },
+  "86b": {
+    "name": {
+      "en": "General Tao (Served with rice)",
+      "fr": "Général Tao (servi avec riz)",
+      "zh": "左宗棠鸡 (配米饭)"
+    },
+    "price": "$17.00",
+    "image": "86b.png",
+    "ingredients": {
+      "en": [],
+      "fr": [],
+      "zh": []
+    }
+  },
+  "87": {
+    "name": {
+      "en": "Sushi Platter – 12 pcs (6 Futomaki, 6 Hosomaki)",
+      "fr": "Plateau de sushi – 12 mcx (6 Futomakis, 6 Hosomakis)",
+      "zh": "寿司拼盘 – 12件 (6太卷, 6细卷)"
+    },
+    "price": "$13.75",
+    "image": "87.png",
+    "ingredients": {
+      "en": [
+        "Assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection de sushi variés"
+      ],
+      "zh": [
+        "综合寿司拼盘"
+      ]
+    }
+  },
+  "88": {
+    "name": {
+      "en": "Sushi Platter – 14 pcs (6 Futomaki, 2 Nigiri, 6 Hosomaki)",
+      "fr": "Plateau de sushi – 14 mcx (6 Futomakis, 2 Nigiris, 6 Hosomakis)",
+      "zh": "寿司拼盘 – 14件 (6太卷, 2握寿司, 6细卷)"
+    },
+    "price": "$17.00",
+    "image": "88.png",
+    "ingredients": {
+      "en": [
+        "Assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection de sushi variés"
+      ],
+      "zh": [
+        "综合寿司拼盘"
+      ]
+    }
+  },
+  "89": {
+    "name": {
+      "en": "Sushi Platter – 16 pcs (8 Maki, 2 Nigiri, 6 Hosomaki)",
+      "fr": "Plateau de sushi – 16 mcx (8 Makis, 2 Nigiris, 6 Hosomakis)",
+      "zh": "寿司拼盘 – 16件 (8卷寿司, 2握寿司, 6细卷)"
+    },
+    "price": "$18.00",
+    "image": "89.png",
+    "ingredients": {
+      "en": [
+        "Assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection de sushi variés"
+      ],
+      "zh": [
+        "综合寿司拼盘"
+      ]
+    }
+  },
+  "90": {
+    "name": {
+      "en": "Sushi Platter – 20 pcs (10 Futomaki, 4 Nigiri, 6 Hosomaki)",
+      "fr": "Plateau de sushi – 20 mcx (10 Futomakis, 4 Nigiris, 6 Hosomakis)",
+      "zh": "寿司拼盘 – 20件 (10太卷, 4握寿司, 6细卷)"
+    },
+    "price": "$22.00",
+    "image": "90.png",
+    "ingredients": {
+      "en": [
+        "Assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection de sushi variés"
+      ],
+      "zh": [
+        "综合寿司拼盘"
+      ]
+    }
+  },
+  "91": {
+    "name": {
+      "en": "Deluxe Sushi Platter – 28 pcs (10 Futomaki, 6 Nigiri, 4 Maki, 8 Hosomaki)",
+      "fr": "Plateau de sushi deluxe – 28 mcx (10 Futomakis, 6 Nigiris, 4 Makis, 8 Hosomakis)",
+      "zh": "豪华寿司拼盘 – 28件 (10太卷, 6握寿司, 4卷寿司, 8细卷)"
+    },
+    "price": "$32.00",
+    "image": "91.png",
+    "ingredients": {
+      "en": [
+        "Premium assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection premium de sushi variés"
+      ],
+      "zh": [
+        "高级综合寿司拼盘"
+      ]
+    }
+  },
+  "92": {
+    "name": {
+      "en": "Party Sushi Platter – 36 pcs (16 Futomaki, 8 Nigiri, 4 Maki, 8 Hosomaki)",
+      "fr": "Plateau de sushi pour fête – 36 mcx (16 Futomakis, 8 Nigiris, 4 Makis, 8 Hosomakis)",
+      "zh": "派对寿司拼盘 – 36件 (16太卷, 8握寿司, 4卷寿司, 8细卷)"
+    },
+    "price": "$47.25",
+    "image": "92.png",
+    "ingredients": {
+      "en": [
+        "Large assorted sushi selection"
+      ],
+      "fr": [
+        "Grande sélection de sushi variés"
+      ],
+      "zh": [
+        "大型综合寿司拼盘"
+      ]
+    }
+  },
+  "93": {
+    "name": {
+      "en": "Grand Sushi Platter – 44 pcs (22 Futomaki, 10 Nigiri, 4 Maki, 8 Hosomaki)",
+      "fr": "Grand plateau de sushi – 44 mcx (22 Futomakis, 10 Nigiris, 4 Makis, 8 Hosomakis)",
+      "zh": "巨型寿司拼盘 – 44件 (22太卷, 10握寿司, 4卷寿司, 8细卷)"
+    },
+    "price": "$63.75",
+    "image": "93.png",
+    "ingredients": {
+      "en": [
+        "Large assorted sushi selection"
+      ],
+      "fr": [
+        "Grande sélection de sushi variés"
+      ],
+      "zh": [
+        "大型综合寿司拼盘"
+      ]
+    }
+  },
+  "94": {
+    "name": {
+      "en": "Premium Sushi Platter – 54 pcs (30 Futomaki, 12 Nigiri, 4 Maki, 8 Hosomaki)",
+      "fr": "Plateau de sushi premium – 54 mcx (30 Futomakis, 12 Nigiris, 4 Makis, 8 Hosomakis)",
+      "zh": "高级寿司拼盘 – 54件 (30太卷, 12握寿司, 4卷寿司, 8细卷)"
+    },
+    "price": "$74.75",
+    "image": "94.png",
+    "ingredients": {
+      "en": [
+        "Premium assorted sushi selection"
+      ],
+      "fr": [
+        "Sélection premium de sushi variés"
+      ],
+      "zh": [
+        "高级综合寿司拼盘"
+      ]
+    }
+  },
+  "95": {
+    "name": {
+      "en": "Deluxe Party Platter – 76 pcs (30 Futomaki, 14 Nigiri, 16 Maki, 16 Hosomaki)",
+      "fr": "Plateau de fête deluxe – 76 mcx (30 Futomakis, 14 Nigiris, 16 Makis, 16 Hosomakis)",
+      "zh": "豪华派对拼盘 – 76件 (30太卷, 14握寿司, 16卷寿司, 16细卷)"
+    },
+    "price": "$93.45",
+    "image": "95.png",
+    "ingredients": {
+      "en": [
+        "Extensive assorted sushi selection"
+      ],
+      "fr": [
+        "Vaste sélection de sushi variés"
+      ],
+      "zh": [
+        "丰富综合寿司拼盘"
+      ]
+    }
+  },
+  "96": {
+    "name": {
+      "en": "Mega Party Platter – 88 pcs (40 Futomaki, 16 Nigiri, 16 Maki, 16 Hosomaki)",
+      "fr": "Plateau de fête méga – 88 mcx (40 Futomakis, 16 Nigiris, 16 Makis, 16 Hosomakis)",
+      "zh": "超大派对拼盘 – 88件 (40太卷, 16握寿司, 16卷寿司, 16细卷)"
+    },
+    "price": "$104.45",
+    "image": "96.png",
+    "ingredients": {
+      "en": [
+        "Extensive assorted sushi selection"
+      ],
+      "fr": [
+        "Vaste sélection de sushi variés"
+      ],
+      "zh": [
+        "丰富综合寿司拼盘"
+      ]
+    }
+  },
+  "97": {
+    "name": {
+      "en": "Ultimate Party Platter – 100 pcs (50 Futomaki, 18 Nigiri, 16 Maki, 16 Hosomaki)",
+      "fr": "Plateau de fête ultime – 100 mcx (50 Futomakis, 18 Nigiris, 16 Makis, 16 Hosomakis)",
+      "zh": "终极派对拼盘 – 100件 (50太卷, 18握寿司, 16卷寿司, 16细卷)"
+    },
+    "price": "$115.45",
+    "image": "97.png",
+    "ingredients": {
+      "en": [
+        "Extensive assorted sushi selection"
+      ],
+      "fr": [
+        "Vaste sélection de sushi variés"
+      ],
+      "zh": [
+        "丰富综合寿司拼盘"
+      ]
+    }
+  },
+  "98": {
+    "name": {
+      "en": "Chef's Choice Nigiri Combo – 10 pcs",
+      "fr": "Combo Nigiri (10 nigiris assortis au choix du chef)",
+      "zh": "主厨精选握寿司套餐 – 10件"
+    },
+    "price": "$23.00",
+    "image": "98.png",
+    "ingredients": {
+      "en": [
+        "Assorted nigiri selection chosen by chef"
+      ],
+      "fr": [
+        "Sélection de nigiris variés choisis par le chef"
+      ],
+      "zh": [
+        "主厨精选握寿司组合"
+      ]
+    }
+  },
+  "99": {
+    "name": {
+      "en": "Chef's Choice Sashimi Combo – 15 pcs (with Japanese rice bowl)",
+      "fr": "Combo Sashimi (15 sashimis assortis au choix du chef, bol de riz japonais)",
+      "zh": "主厨精选刺身套餐 – 15件 (配日本米饭)"
+    },
+    "price": "$28.00",
+    "image": "99.png",
+    "ingredients": {
+      "en": [
+        "Assorted sashimi selection chosen by chef",
+        "Japanese rice"
+      ],
+      "fr": [
+        "Sélection de sashimis variés choisis par le chef",
+        "Riz japonais"
+      ],
+      "zh": [
+        "主厨精选刺身组合",
+        "日本米饭"
+      ]
+    }
+  },
+  "Bento A": {
+    "name": {
+      "en": "Grilled Eel Bento Box",
+      "fr": "Bento A (Anguille grillée)",
+      "zh": "烤鳗鱼便当盒"
+    },
+    "price": "$21.00",
+    "image": "BentoA.png",
+    "ingredients": {
+      "en": [
+        "Rice",
+        "4 Futomaki",
+        "2 Nigiri", 
+        "2 Hosomaki",
+        "Green salad",
+        "Choice of:",
+        "- 2 tempura shrimp",
+        "- OR 3 spring rolls",
+        "Grilled eel"
+      ],
+      "fr": [
+        "Riz",
+        "4 Futomakis",
+        "2 Nigiris",
+        "2 Hosomakis",
+        "Salade verte",
+        "Choix de:",
+        "- 2 crevettes tempura",
+        "- OU 3 rouleaux impériaux",
+        "Anguille grillée"
+      ],
+      "zh": [
+        "米饭",
+        "4太卷", 
+        "2握寿司",
+        "2细卷",
+        "绿色沙拉",
+        "选择:",
+        "- 2天妇罗虾",
+        "- 或3春卷",
+        "烤鳗鱼"
+      ]
+    }
+  },
+  "Bento B": {
+    "name": {
+      "en": "General Tao Bento Box",
+      "fr": "Bento B (General tao)",
+      "zh": "左宗棠鸡便当盒"
+    },
+    "price": "$20.00",
+    "image": "BentoB.png",
+    "ingredients": {
+      "en": [
+        "Rice",
+        "4 Futomaki",
+        "2 Nigiri",
+        "2 Hosomaki",
+        "Green salad",
+        "Choice of:",
+        "- 2 tempura shrimp",
+        "- OR 3 spring rolls",
+        "General Tao chicken"
+      ],
+      "fr": [
+        "Riz",
+        "4 Futomakis",
+        "2 Nigiris",
+        "2 Hosomakis",
+        "Salade verte",
+        "Choix de:",
+        "- 2 crevettes tempura",
+        "- OU 3 rouleaux impériaux",
+        "Poulet General tao"
+      ],
+      "zh": [
+        "米饭",
+        "4太卷",
+        "2握寿司",
+        "2细卷",
+        "绿色沙拉",
+        "选择:",
+        "- 2天妇罗虾",
+        "- 或3春卷",
+        "左宗棠鸡"
+      ]
+    }
+  },
+  "Bento C": {
+    "name": {
+      "en": "Vegetarian Bento Box",
+      "fr": "Bento C (Végé)",
+      "zh": "素食便当盒"
+    },
+    "price": "$20.00",
+    "image": "BentoC.png",
+    "ingredients": {
+      "en": [
+        "Rice",
+        "4 Futomaki",
+        "2 Nigiri",
+        "2 Hosomaki",
+        "Green salad",
+        "Choice of:",
+        "- 2 tempura shrimp",
+        "- OR 3 spring rolls",
+        "Vegetarian selection"
+      ],
+      "fr": [
+        "Riz",
+        "4 Futomakis",
+        "2 Nigiris",
+        "2 Hosomakis",
+        "Salade verte",
+        "Choix de:",
+        "- 2 crevettes tempura",
+        "- OU 3 rouleaux impériaux",
+        "Sélection végétarienne"
+      ],
+      "zh": [
+        "米饭",
+        "4太卷",
+        "2握寿司",
+        "2细卷",
+        "绿色沙拉",
+        "选择:",
+        "- 2天妇罗虾",
+        "- 或3春卷",
+        "素食精选"
+      ]
+    }
+  },
+  "D1": {
+    "name": {
+      "en": "Sushi Dessert – 6 pcs",
+      "fr": "Sushi Dessert – 6 mcx",
+      "zh": "寿司甜点 – 6件"
+    },
+    "price": null,
+    "image": "D1.png",
+    "ingredients": {
+      "en": [
+        "Strawberry, banana, chocolate tempura",
+        "Served with special sauce"
+      ],
+      "fr": [
+        "Fraise, banane, chocolat tempura",
+        "Servi avec sauce spéciale"
+      ],
+      "zh": [
+        "草莓、香蕉、巧克力天妇罗",
+        "配特制酱汁"
+      ]
+    }
+  }
 }
