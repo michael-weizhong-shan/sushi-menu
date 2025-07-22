@@ -677,7 +677,8 @@
 
             // If no orders yet, show some default popular items
             if (sortedItems.length === 0) {
-                const defaultItems = [1, 2, 'c2a', 'p1', 'x1'];
+                // Use the exact case as in the JSON
+                const defaultItems = ['1', '2', '2a', 'p1', 'P2']; // lowercase p1
                 quickButtonsContainer.innerHTML = defaultItems.map(num => 
                     `<button class="quick-button" onclick="searchSushi('${num}')">${num}</button>`
                 ).join('');
