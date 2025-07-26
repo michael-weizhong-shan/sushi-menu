@@ -2220,15 +2220,15 @@
     "image": "C3.png",
     "ingredients": {
       "en": [
-        "Smoked salmon, fresh salmon, tobiko, cream cheese, avocado",
+        "Smoked salmon", "fresh salmon", "tobiko", "cream cheese", "avocado",
         "Spicy mayo"
       ],
       "fr": [
-        "Saumon fumé, saumon frais, tobiko, fromage à la crème, avocat",
+        "Saumon fumé", "saumon frais", "tobiko", "fromage à la crème", "avocat",
         "Mayo épicée"
       ],
       "zh": [
-        "烟熏三文鱼、新鲜三文鱼、飞鱼籽、奶油芝士、牛油果",
+        "烟熏三文鱼","新鲜三文鱼","飞鱼籽","奶油芝士","牛油果",
         "辣味蛋黄酱"
       ]
     }
