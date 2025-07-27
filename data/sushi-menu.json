@@ -2217,7 +2217,7 @@
       "zh": "火山卷 – 6件"
     },
     "price": "$11.95",
-    "image": "c3.png",
+    "image": "c3.jpg",
     "ingredients": {
       "en": [
         "Smoked salmon", "fresh salmon", "tobiko", "cream cheese", "avocado",
@@ -3462,7 +3462,7 @@
       "zh": "味噌汤 (素食)"
     },
     "price": "$4.00",
-    "image": "080.png",
+    "image": "080.jpg",
     "ingredients": {
       "en": [
         "Tofu", "carrot", "shallot"
@@ -3482,7 +3482,7 @@
       "zh": "虾味噌汤"
     },
     "price": "$5.00",
-    "image": "081.png",
+    "image": "081.jpg",
     "ingredients": {
       "en": [
         "Vegetarian miso soup base",
@@ -3505,7 +3505,7 @@
       "zh": "蟹味噌汤"
     },
     "price": "$5.50",
-    "image": "082.png",
+    "image": "082.jpg",
     "ingredients": {
       "en": [
         "Vegetarian miso soup base",
@@ -3528,7 +3528,7 @@
       "zh": "海鲜杂烩味噌汤"
     },
     "price": "$6.00",
-    "image": "083.png",
+    "image": "083.jpg",
     "ingredients": {
       "en": [
         "Vegetarian miso soup base",
@@ -3551,7 +3551,7 @@
       "zh": "春卷 – 3件 (素食)"
     },
     "price": "$4.40",
-    "image": "83b.png",
+    "image": "83b.jpg",
     "ingredients": {
       "en": [
         "Fried spring rolls"
@@ -3571,7 +3571,7 @@
       "zh": "绿色沙拉 (素食)"
     },
     "price": "$6.50",
-    "image": "084.png",
+    "image": "084.jpg",
     "ingredients": {
       "en": [],
       "fr": [],
@@ -3585,7 +3585,7 @@
       "zh": "炸虾 – 2件"
     },
     "price": "$4.95",
-    "image": "84a.png",
+    "image": "84a.jpg",
     "ingredients": {
       "en": [
         "Giant tempura shrimp"
@@ -3605,7 +3605,7 @@
       "zh": "红薯条 (素食)"
     },
     "price": "$5.50",
-    "image": "84b.png",
+    "image": "84b.jpg",
     "ingredients": {
       "en": [],
       "fr": [],
@@ -3619,7 +3619,7 @@
       "zh": "海藻沙拉 (素食)"
     },
     "price": "$5.50",
-    "image": "085.png",
+    "image": "085.jpg",
     "ingredients": {
       "en": [
         "Marinated seaweed"
@@ -3639,7 +3639,7 @@
       "zh": "海鲜沙拉"
     },
     "price": "$14.00",
-    "image": "086.png",
+    "image": "086.jpg",
     "ingredients": {
       "en": [],
       "fr": [],
@@ -3653,7 +3653,7 @@
       "zh": "毛豆 (素食)"
     },
     "price": "$4.50",
-    "image": "86a.png",
+    "image": "86a.jpg",
     "ingredients": {
       "en": [],
       "fr": [],
@@ -3667,7 +3667,7 @@
       "zh": "左宗棠鸡 (配米饭)"
     },
     "price": "$17.00",
-    "image": "86b.png",
+    "image": "86b.jpg",
     "ingredients": {
       "en": [],
       "fr": [],
@@ -3944,7 +3944,7 @@
       "zh": "烤鳗鱼便当盒"
     },
     "price": "$21.00",
-    "image": "ba.png",
+    "image": "ba.jpg",
     "ingredients": {
       "en": [
         "Rice",
@@ -3988,7 +3988,7 @@
       "zh": "左宗棠鸡便当盒"
     },
     "price": "$20.00",
-    "image": "bb.png",
+    "image": "bb.jpg",
     "ingredients": {
       "en": [
         "Rice",
@@ -4032,7 +4032,7 @@
       "zh": "素食便当盒"
     },
     "price": "$20.00",
-    "image": "bc.png",
+    "image": "bc.jpg",
     "ingredients": {
       "en": [
         "Rice",
@@ -4076,7 +4076,7 @@
       "zh": "寿司甜点 – 6件"
     },
     "price": null,
-    "image": "d1.png",
+    "image": "d1.jpg",
     "ingredients": {
       "en": [
         "Strawberry", "banana", "chocolate tempura",
