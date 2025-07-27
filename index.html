@@ -45,6 +45,8 @@
             padding: 25px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             min-height: 500px;
+            display: flex;
+            flex-direction: column;
         }
 
         .title {
@@ -92,46 +94,12 @@
             color: #2d3748;
         }
 
-        .most-ordered {
-            margin-bottom: 25px;
-        }
-
         .section-title {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 15px;
             color: #4a5568;
             text-align: center;
-        }
-
-        .quick-buttons {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-
-        .quick-button {
-            background: linear-gradient(145deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            padding: 15px 8px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.2s;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-            min-height: 60px;
-        }
-
-        .quick-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-        }
-
-        .quick-button:active {
-            transform: translateY(0);
         }
 
         .number-pad {
@@ -171,6 +139,39 @@
         .number-pad button:active, .letter-pad button:active {
             background: #e2e8f0;
             transform: scale(0.95);
+        }
+
+        .online-orders {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .online-order-btn {
+            background: linear-gradient(145deg, #38a169, #2f855a);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 20px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-height: 60px;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            box-shadow: 0 4px 15px rgba(56, 161, 105, 0.3);
+        }
+
+        .online-order-btn:hover {
+            background: linear-gradient(145deg, #2f855a, #276749);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(56, 161, 105, 0.4);
+        }
+
+        .online-order-btn:active {
+            transform: translateY(0);
         }
 
         .action-buttons {
@@ -218,6 +219,7 @@
 
         .sushi-display {
             text-align: center;
+            flex: 1;
         }
 
         .sushi-image {
@@ -297,6 +299,40 @@
             text-align: center;
         }
 
+        .most-ordered {
+            margin-top: auto;
+            padding-top: 20px;
+        }
+
+        .quick-buttons {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+
+        .quick-button {
+            background: linear-gradient(145deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 15px 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            min-height: 60px;
+        }
+
+        .quick-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .quick-button:active {
+            transform: translateY(0);
+        }
+
         @media (max-width: 768px) {
             .container {
                 grid-template-columns: 1fr;
@@ -332,7 +368,7 @@
 <body>
     <div class="container">
         <div class="input-section">
-            <h1 class="title">Sushi Menu</h1>
+            <h1 class="title">Menu Sushi</h1>
             
             <div class="language-selector">
                 <select id="languageSelect" onchange="changeLanguage()">
@@ -342,16 +378,9 @@
                 </select>
             </div>
             
-            <div class="number-display" id="numberDisplay">Enter Number</div>
+            <div class="number-display" id="numberDisplay">Entrez le Numéro</div>
             
-            <div class="most-ordered">
-                <div class="section-title">Most Ordered</div>
-                <div class="quick-buttons" id="quickButtons">
-                    <!-- Quick buttons will be populated by JavaScript -->
-                </div>
-            </div>
-            
-            <div class="section-title">Number Pad</div>
+            <div class="section-title">Pavé Numérique</div>
             <div class="number-pad">
                 <button onclick="addNumber('1')">1</button>
                 <button onclick="addNumber('2')">2</button>
@@ -366,7 +395,7 @@
                 <button onclick="backspace()">⌫</button>
             </div>
             
-            <div class="section-title">Letter Pad</div>
+            <div class="section-title">Pavé Lettres</div>
             <div class="letter-pad">
                 <button onclick="addNumber('a')">A</button>
                 <button onclick="addNumber('b')">B</button>
@@ -377,17 +406,30 @@
                 <button onclick="addNumber('x')">X</button>
             </div>
             
+            <div class="section-title">Commandes en Ligne</div>
+            <div class="online-orders">
+                <button class="online-order-btn" onclick="searchSushi('com_maki')">Combo Maki Favoris</button>
+                <button class="online-order-btn" onclick="searchSushi('com_kami')">Combo Kamikaze Saumon</button>
+            </div>
+            
             <div class="action-buttons">
-                <button class="clear-btn" onclick="clearNumber()">Clear</button>
-                <button class="enter-btn" onclick="searchSushi()">Enter</button>
+                <button class="clear-btn" onclick="clearNumber()">Effacer</button>
+                <button class="enter-btn" onclick="searchSushi()">Entrée</button>
             </div>
         </div>
         
         <div class="display-section">
             <div class="sushi-display" id="sushiDisplay">
                 <div class="not-found">
-                    <h2>Welcome to Sushi Kitchen</h2>
-                    <p>Enter a menu number to see the sushi details</p>
+                    <h2>Bienvenue au Kitchen Sushi</h2>
+                    <p>Entrez un numéro de menu pour voir les détails du sushi</p>
+                </div>
+            </div>
+            
+            <div class="most-ordered">
+                <div class="section-title">Plus Commandés</div>
+                <div class="quick-buttons" id="quickButtons">
+                    <!-- Quick buttons will be populated by JavaScript -->
                 </div>
             </div>
         </div>
@@ -396,7 +438,7 @@
     <script>
         // Global variables
         let sushiData = {};
-        let currentLanguage = 'fr';
+        let currentLanguage = 'fr'; // Default to French
 
         // Language-specific UI text
         const uiText = {
@@ -406,6 +448,7 @@
                 mostOrdered: "Most Ordered",
                 numberPad: "Number Pad",
                 letterPad: "Letter Pad",
+                onlineOrders: "Online Orders",
                 clear: "Clear",
                 enter: "Enter",
                 ingredients: "Ingredients:",
@@ -420,6 +463,7 @@
                 mostOrdered: "Plus Commandés",
                 numberPad: "Pavé Numérique",
                 letterPad: "Pavé Lettres",
+                onlineOrders: "Commandes en Ligne",
                 clear: "Effacer",
                 enter: "Entrée",
                 ingredients: "Ingrédients:",
@@ -434,6 +478,7 @@
                 mostOrdered: "最常点的",
                 numberPad: "数字键盘",
                 letterPad: "字母键盘",
+                onlineOrders: "在线订单",
                 clear: "清除",
                 enter: "确认",
                 ingredients: "配料:",
@@ -455,116 +500,14 @@
                 updateQuickButtons();
             } catch (error) {
                 console.error('Error loading sushi data:', error);
-                // Fallback to sample data if file not found
-                sushiData = {
-                    '1': {
-                        name: {
-                            en: "Salmon Nigiri",
-                            fr: "Nigiri de Saumon",
-                            zh: "三文鱼握寿司"
-                        },
-                        price: "$3.50",
-                        ingredients: {
-                            en: ["Fresh Salmon", "Sushi Rice", "Wasabi"],
-                            fr: ["Saumon Frais", "Riz à Sushi", "Wasabi"],
-                            zh: ["新鲜三文鱼", "寿司米", "芥末"]
-                        }
-                    },
-                    '2': {
-                        name: {
-                            en: "Tuna Sashimi",
-                            fr: "Sashimi de Thon",
-                            zh: "金枪鱼刺身"
-                        },
-                        price: "$4.20",
-                        ingredients: {
-                            en: ["Fresh Tuna", "Pickled Ginger", "Soy Sauce"],
-                            fr: ["Thon Frais", "Gingembre Mariné", "Sauce Soja"],
-                            zh: ["新鲜金枪鱼", "腌姜", "酱油"]
-                        }
-                    },
-                    'p1': {
-                        name: {
-                            en: "Vegetarian Platter",
-                            fr: "Végé",
-                            zh: "素食拼盘"
-                        },
-                        price: "$16.00",
-                        ingredients: {
-                            en: [
-                                "Sweet potato tempura",
-                                "Inari",
-                                "Edamame"
-                            ],
-                            fr: [
-                                "Patate sucrée tempura",
-                                "inari",
-                                "edamame"
-                            ],
-                            zh: [
-                                "红薯天妇罗",
-                                "油豆腐皮",
-                                "毛豆"
-                            ]
-                        }
-                    },
-                    'P2': {
-                        name: {
-                            en: "Crab & Shrimp Platter",
-                            fr: "Crabe & Crevettes",
-                            zh: "蟹肉虾肉拼盘"
-                        },
-                        price: "$18.00",
-                        ingredients: {
-                            en: [
-                                "Shrimp tempura",
-                                "Marinated shrimp",
-                                "Spicy crab",
-                                "Pollock"
-                            ],
-                            fr: [
-                                "Crevettes tempura",
-                                "crevettes marinées",
-                                "crabe épicé",
-                                "goberge"
-                            ],
-                            zh: [
-                                "天妇罗虾",
-                                "腌虾",
-                                "辣蟹肉",
-                                "鳕鱼"
-                            ]
-                        }
-                    },
-                    'X1': {
-                        name: {
-                            en: "Harmonie – 5 pcs",
-                            fr: "Harmonie – 5 mcx",
-                            zh: "和谐卷 – 5件"
-                        },
-                        price: "$12.00",
-                        ingredients: {
-                            en: [
-                                "Tuna tartare, shrimp tempura, crab meat, tobiko, cucumber, fried onion, spicy mayonnaise",
-                                "Sesame and teriyaki sauce"
-                            ],
-                            fr: [
-                                "Tartare de thon, crevette tempura, chair de crabe, tobiko, concombre, oignon frit, mayonnaise épicée",
-                                "Sauce sésame et teriyaki"
-                            ],
-                            zh: [
-                                "金枪鱼鞑靼、炸虾天妇罗、蟹肉、飞鱼籽、黄瓜、炸洋葱、辣味蛋黄酱",
-                                "芝麻酱和照烧酱"
-                            ]
-                        }
-                    }
-                };
+                // No fallback data - rely entirely on external data file
+                sushiData = {};
                 updateQuickButtons();
             }
         }
 
         let currentNumber = "";
-        let orderCounts = JSON.parse(localStorage.getItem('sushiOrderCounts')) || {};
+        let orderCounts = {}; // Remove localStorage dependency
 
         function updateDisplay() {
             const display = document.getElementById('numberDisplay');
@@ -574,7 +517,6 @@
         function changeLanguage() {
             const select = document.getElementById('languageSelect');
             currentLanguage = select.value;
-            localStorage.setItem('sushiLanguage', currentLanguage);
             updateUI();
             
             // Refresh current display if showing sushi
@@ -597,9 +539,10 @@
             
             // Update static text elements
             document.querySelector('.title').textContent = text.title;
-            document.querySelector('.section-title').textContent = text.mostOrdered;
-            document.querySelectorAll('.section-title')[1].textContent = text.numberPad;
-            document.querySelectorAll('.section-title')[2].textContent = text.letterPad;
+            document.querySelector('.most-ordered .section-title').textContent = text.mostOrdered;
+            document.querySelectorAll('.section-title')[0].textContent = text.numberPad;
+            document.querySelectorAll('.section-title')[1].textContent = text.letterPad;
+            document.querySelectorAll('.section-title')[2].textContent = text.onlineOrders;
             document.querySelector('.clear-btn').textContent = text.clear;
             document.querySelector('.enter-btn').textContent = text.enter;
             
@@ -607,7 +550,7 @@
             
             // Update welcome message if showing
             const welcomeDiv = document.querySelector('.not-found h2');
-            if (welcomeDiv && (welcomeDiv.textContent.includes('Welcome') || welcomeDiv.textContent.includes('Bienvenue'))) {
+            if (welcomeDiv && (welcomeDiv.textContent.includes('Welcome') || welcomeDiv.textContent.includes('Bienvenue') || welcomeDiv.textContent.includes('欢迎'))) {
                 showWelcome();
             }
         }
@@ -660,7 +603,6 @@
 
             // Update order count using the original key (preserve case)
             orderCounts[sushiKey] = (orderCounts[sushiKey] || 0) + 1;
-            localStorage.setItem('sushiOrderCounts', JSON.stringify(orderCounts));
             
             displaySushi(sushi, sushiKey); // Pass the original key
             updateQuickButtons();
@@ -783,13 +725,8 @@
 
         // Initialize the app
         function initApp() {
-            // Load saved language preference, default to French
-            const savedLanguage = localStorage.getItem('sushiLanguage');
-            if (savedLanguage) {
-                currentLanguage = savedLanguage;
-            } else {
-                currentLanguage = 'fr'; // Default to French
-            }
+            // Set default language to French
+            currentLanguage = 'fr';
             document.getElementById('languageSelect').value = currentLanguage;
             
             loadSushiData();

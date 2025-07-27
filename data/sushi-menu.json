@@ -4378,5 +4378,50 @@
         "辣味蛋黄酱和照烧酱"
       ]
     }
+  },
+  "com_maki": {
+  "name": {
+    "en": "Combo Maki Favoris",
+    "fr": "Combo Maki Favoris",
+    "zh": "精选卷组合"
+  },
+  "price": "$33.00",
+  "image": "com_maki.png",
+  "ingredients": {
+    "en": [
+      "Philadelphia (4 pcs)", "Mini Kamikaze (4 pcs)", "Double Salmon (4 pcs)",
+      "2 soy sauce", "ginger", "wasabi"
+    ],
+    "fr": [
+      "Philadelphia (4 mcx)", "Mini kami (4 mcx)", "Double saumon (4 mcx)",
+      "2 soya", "gingembre", "wasabi"
+    ],
+    "zh": [
+      "费城卷 (4件)", "迷你神风卷 (4件)", "双层三文鱼卷 (4件)",
+      "2份酱油", "姜", "芥末"
+    ]
+  }
+},
+"com_kami": {
+  "name": {
+    "en": "Combo Kamikaze Salmon",
+    "fr": "Combo Kamikaze Saumon",
+    "zh": "神风三文鱼组合"
+  },
+  "price": "$22.00",
+  "image": "com_kami.png",
+  "ingredients": {
+    "en": [
+      "Futomaki Kamikaze Salmon (5 pcs)", "Hosomaki Avocado (3 pcs)", "Hosomaki Cucumber (3 pcs)",
+      "ginger", "wasabi", "1 soy sauce"
+    ],
+    "fr": [
+      "Futomaki kamikaze saumon (5 mcx)", "Hosomaki avocat (3 mcx)", "Hosomaki concombre (3 mcx)",
+      "gingembre", "wasabi", "1 soya"
+    ],
+    "zh": [
+      "粗卷神风三文鱼 (5件)", "细卷牛油果 (3件)", "细卷黄瓜 (3件)",
+      "姜", "芥末", "1份酱油"
+    ]
   }
 }
